@@ -26,6 +26,18 @@
 		BA91FDAA23A0B80400D7A70D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA91FDA823A0B7FC00D7A70D /* Default-568h@2x.png */; };
 		BA91FDAC23A0C99F00D7A70D /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA91FDAB23A0C99F00D7A70D /* View.xib */; };
 		BA91FDAD23A0C99F00D7A70D /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA91FDAB23A0C99F00D7A70D /* View.xib */; };
+		BA91FDB023A0D98400D7A70D /* Transactions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA91FDAE23A0D98400D7A70D /* Transactions.storyboard */; };
+		BA91FDB123A0D98400D7A70D /* Transactions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA91FDAE23A0D98400D7A70D /* Transactions.storyboard */; };
+		BA91FDB323A0DA7F00D7A70D /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA91FDB223A0DA7F00D7A70D /* Profile.storyboard */; };
+		BA91FDB423A0DA7F00D7A70D /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA91FDB223A0DA7F00D7A70D /* Profile.storyboard */; };
+		BA91FDB823A0DAED00D7A70D /* Budget.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA91FDB623A0DAED00D7A70D /* Budget.storyboard */; };
+		BA91FDB923A0DAED00D7A70D /* Budget.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA91FDB623A0DAED00D7A70D /* Budget.storyboard */; };
+		BA91FDBC23A0DB8900D7A70D /* Statistics.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA91FDBB23A0DB8900D7A70D /* Statistics.storyboard */; };
+		BA91FDBD23A0DB8900D7A70D /* Statistics.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA91FDBB23A0DB8900D7A70D /* Statistics.storyboard */; };
+		BA91FDC023A0DC1400D7A70D /* Add.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA91FDBF23A0DC1400D7A70D /* Add.storyboard */; };
+		BA91FDC123A0DC1400D7A70D /* Add.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA91FDBF23A0DC1400D7A70D /* Add.storyboard */; };
+		BA91FDC323A0DD6100D7A70D /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA91FDC223A0DD6100D7A70D /* SignIn.storyboard */; };
+		BA91FDC423A0DD6100D7A70D /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA91FDC223A0DD6100D7A70D /* SignIn.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +77,12 @@
 		BA91FD9B23A0B32A00D7A70D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		BA91FDA823A0B7FC00D7A70D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		BA91FDAB23A0C99F00D7A70D /* View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+		BA91FDAF23A0D98400D7A70D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = SoloFinanzas/Application/Main/Main/Base.lproj/Transactions.storyboard; sourceTree = SOURCE_ROOT; };
+		BA91FDB223A0DA7F00D7A70D /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = SOURCE_ROOT; };
+		BA91FDB723A0DAED00D7A70D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = SoloFinanzas/Application/Main/Main/Base.lproj/Budget.storyboard; sourceTree = SOURCE_ROOT; };
+		BA91FDBB23A0DB8900D7A70D /* Statistics.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Statistics.storyboard; sourceTree = SOURCE_ROOT; };
+		BA91FDBF23A0DC1400D7A70D /* Add.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Add.storyboard; sourceTree = SOURCE_ROOT; };
+		BA91FDC223A0DD6100D7A70D /* SignIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,6 +226,9 @@
 		BA91FDA223A0B61200D7A70D /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				BA91FDBE23A0DC0400D7A70D /* Add */,
+				BA91FDBA23A0DB0A00D7A70D /* Statistics */,
+				BA91FDB523A0DACE00D7A70D /* Budget */,
 				BA91FDA723A0B72000D7A70D /* Main */,
 				BA91FDA623A0B6A900D7A70D /* Profile */,
 				BA91FDA523A0B69900D7A70D /* Transactions */,
@@ -225,6 +246,7 @@
 		BA91FDA423A0B68200D7A70D /* Sign In */ = {
 			isa = PBXGroup;
 			children = (
+				BA91FDC223A0DD6100D7A70D /* SignIn.storyboard */,
 			);
 			path = "Sign In";
 			sourceTree = "<group>";
@@ -232,6 +254,7 @@
 		BA91FDA523A0B69900D7A70D /* Transactions */ = {
 			isa = PBXGroup;
 			children = (
+				BA91FDAE23A0D98400D7A70D /* Transactions.storyboard */,
 			);
 			path = Transactions;
 			sourceTree = "<group>";
@@ -239,6 +262,7 @@
 		BA91FDA623A0B6A900D7A70D /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				BA91FDB223A0DA7F00D7A70D /* Profile.storyboard */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -251,6 +275,30 @@
 				BA91FDAB23A0C99F00D7A70D /* View.xib */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		BA91FDB523A0DACE00D7A70D /* Budget */ = {
+			isa = PBXGroup;
+			children = (
+				BA91FDB623A0DAED00D7A70D /* Budget.storyboard */,
+			);
+			path = Budget;
+			sourceTree = "<group>";
+		};
+		BA91FDBA23A0DB0A00D7A70D /* Statistics */ = {
+			isa = PBXGroup;
+			children = (
+				BA91FDBB23A0DB8900D7A70D /* Statistics.storyboard */,
+			);
+			path = Statistics;
+			sourceTree = "<group>";
+		};
+		BA91FDBE23A0DC0400D7A70D /* Add */ = {
+			isa = PBXGroup;
+			children = (
+				BA91FDBF23A0DC1400D7A70D /* Add.storyboard */,
+			);
+			path = Add;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -377,8 +425,14 @@
 			files = (
 				BA91FD6823A0AF5F00D7A70D /* LaunchScreen.storyboard in Resources */,
 				BA91FDAC23A0C99F00D7A70D /* View.xib in Resources */,
+				BA91FDC023A0DC1400D7A70D /* Add.storyboard in Resources */,
 				BA91FDAA23A0B80400D7A70D /* Default-568h@2x.png in Resources */,
+				BA91FDB823A0DAED00D7A70D /* Budget.storyboard in Resources */,
+				BA91FDB023A0D98400D7A70D /* Transactions.storyboard in Resources */,
+				BA91FDC323A0DD6100D7A70D /* SignIn.storyboard in Resources */,
 				BA91FD6523A0AF5F00D7A70D /* Assets.xcassets in Resources */,
+				BA91FDBC23A0DB8900D7A70D /* Statistics.storyboard in Resources */,
+				BA91FDB323A0DA7F00D7A70D /* Profile.storyboard in Resources */,
 				BA91FD6323A0AF5D00D7A70D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -403,8 +457,14 @@
 			files = (
 				BA91FD9223A0B2F400D7A70D /* LaunchScreen.storyboard in Resources */,
 				BA91FDAD23A0C99F00D7A70D /* View.xib in Resources */,
+				BA91FDC123A0DC1400D7A70D /* Add.storyboard in Resources */,
 				BA91FDA923A0B7FC00D7A70D /* Default-568h@2x.png in Resources */,
+				BA91FDB923A0DAED00D7A70D /* Budget.storyboard in Resources */,
+				BA91FDB123A0D98400D7A70D /* Transactions.storyboard in Resources */,
+				BA91FDC423A0DD6100D7A70D /* SignIn.storyboard in Resources */,
 				BA91FD9323A0B2F400D7A70D /* Assets.xcassets in Resources */,
+				BA91FDBD23A0DB8900D7A70D /* Statistics.storyboard in Resources */,
+				BA91FDB423A0DA7F00D7A70D /* Profile.storyboard in Resources */,
 				BA91FD9423A0B2F400D7A70D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -478,6 +538,22 @@
 				BA91FD6723A0AF5F00D7A70D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BA91FDAE23A0D98400D7A70D /* Transactions.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA91FDAF23A0D98400D7A70D /* Base */,
+			);
+			name = Transactions.storyboard;
+			sourceTree = "<group>";
+		};
+		BA91FDB623A0DAED00D7A70D /* Budget.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA91FDB723A0DAED00D7A70D /* Base */,
+			);
+			name = Budget.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
