@@ -15,6 +15,17 @@
 		BA91FD6823A0AF5F00D7A70D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA91FD6623A0AF5F00D7A70D /* LaunchScreen.storyboard */; };
 		BA91FD7323A0AF5F00D7A70D /* SoloFinanzasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA91FD7223A0AF5F00D7A70D /* SoloFinanzasTests.swift */; };
 		BA91FD7E23A0AF5F00D7A70D /* SoloFinanzasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA91FD7D23A0AF5F00D7A70D /* SoloFinanzasUITests.swift */; };
+		BA91FD8D23A0B2F400D7A70D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA91FD5F23A0AF5D00D7A70D /* ViewController.swift */; };
+		BA91FD8E23A0B2F400D7A70D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA91FD5B23A0AF5D00D7A70D /* AppDelegate.swift */; };
+		BA91FD8F23A0B2F400D7A70D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA91FD5D23A0AF5D00D7A70D /* SceneDelegate.swift */; };
+		BA91FD9223A0B2F400D7A70D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA91FD6623A0AF5F00D7A70D /* LaunchScreen.storyboard */; };
+		BA91FD9323A0B2F400D7A70D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA91FD6423A0AF5F00D7A70D /* Assets.xcassets */; };
+		BA91FD9423A0B2F400D7A70D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA91FD6123A0AF5D00D7A70D /* Main.storyboard */; };
+		BA91FD9C23A0B32A00D7A70D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA91FD9B23A0B32A00D7A70D /* MapKit.framework */; };
+		BA91FDA923A0B7FC00D7A70D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA91FDA823A0B7FC00D7A70D /* Default-568h@2x.png */; };
+		BA91FDAA23A0B80400D7A70D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA91FDA823A0B7FC00D7A70D /* Default-568h@2x.png */; };
+		BA91FDAC23A0C99F00D7A70D /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA91FDAB23A0C99F00D7A70D /* View.xib */; };
+		BA91FDAD23A0C99F00D7A70D /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA91FDAB23A0C99F00D7A70D /* View.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +60,11 @@
 		BA91FD7923A0AF5F00D7A70D /* SoloFinanzasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoloFinanzasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA91FD7D23A0AF5F00D7A70D /* SoloFinanzasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoloFinanzasUITests.swift; sourceTree = "<group>"; };
 		BA91FD7F23A0AF5F00D7A70D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA91FD9823A0B2F400D7A70D /* Production.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Production.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA91FD9923A0B2F500D7A70D /* Production.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Production.plist; path = "/Users/dcaldera/Library/Autosave Information/SoloFinanzas/Production.plist"; sourceTree = "<absolute>"; };
+		BA91FD9B23A0B32A00D7A70D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		BA91FDA823A0B7FC00D7A70D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BA91FDAB23A0C99F00D7A70D /* View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,16 +89,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BA91FD9023A0B2F400D7A70D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA91FD9C23A0B32A00D7A70D /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		BA91FD4F23A0AF5D00D7A70D = {
 			isa = PBXGroup;
 			children = (
+				BA91FDA823A0B7FC00D7A70D /* Default-568h@2x.png */,
 				BA91FD5A23A0AF5D00D7A70D /* SoloFinanzas */,
 				BA91FD7123A0AF5F00D7A70D /* SoloFinanzasTests */,
 				BA91FD7C23A0AF5F00D7A70D /* SoloFinanzasUITests */,
 				BA91FD5923A0AF5D00D7A70D /* Products */,
+				BA91FD9A23A0B32A00D7A70D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,6 +118,7 @@
 				BA91FD5823A0AF5D00D7A70D /* SoloFinanzas.app */,
 				BA91FD6E23A0AF5F00D7A70D /* SoloFinanzasTests.xctest */,
 				BA91FD7923A0AF5F00D7A70D /* SoloFinanzasUITests.xctest */,
+				BA91FD9823A0B2F400D7A70D /* Production.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,13 +126,10 @@
 		BA91FD5A23A0AF5D00D7A70D /* SoloFinanzas */ = {
 			isa = PBXGroup;
 			children = (
-				BA91FD5B23A0AF5D00D7A70D /* AppDelegate.swift */,
+				BA91FD9F23A0B5BE00D7A70D /* Resources */,
+				BA91FD9E23A0B54F00D7A70D /* Base */,
+				BA91FD9D23A0B53300D7A70D /* Application */,
 				BA91FD5D23A0AF5D00D7A70D /* SceneDelegate.swift */,
-				BA91FD5F23A0AF5D00D7A70D /* ViewController.swift */,
-				BA91FD6123A0AF5D00D7A70D /* Main.storyboard */,
-				BA91FD6423A0AF5F00D7A70D /* Assets.xcassets */,
-				BA91FD6623A0AF5F00D7A70D /* LaunchScreen.storyboard */,
-				BA91FD6923A0AF5F00D7A70D /* Info.plist */,
 			);
 			path = SoloFinanzas;
 			sourceTree = "<group>";
@@ -126,6 +150,107 @@
 				BA91FD7F23A0AF5F00D7A70D /* Info.plist */,
 			);
 			path = SoloFinanzasUITests;
+			sourceTree = "<group>";
+		};
+		BA91FD9A23A0B32A00D7A70D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA91FD9B23A0B32A00D7A70D /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA91FD9D23A0B53300D7A70D /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				BA91FDA223A0B61200D7A70D /* Main */,
+				BA91FDA123A0B5F800D7A70D /* Authentication */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		BA91FD9E23A0B54F00D7A70D /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				BA91FD9923A0B2F500D7A70D /* Production.plist */,
+				BA91FD6923A0AF5F00D7A70D /* Info.plist */,
+				BA91FD5B23A0AF5D00D7A70D /* AppDelegate.swift */,
+				BA91FD6623A0AF5F00D7A70D /* LaunchScreen.storyboard */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		BA91FD9F23A0B5BE00D7A70D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BA91FDA023A0B5D300D7A70D /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BA91FDA023A0B5D300D7A70D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				BA91FD6423A0AF5F00D7A70D /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		BA91FDA123A0B5F800D7A70D /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				BA91FDA423A0B68200D7A70D /* Sign In */,
+				BA91FDA323A0B63500D7A70D /* OnBoarding */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		BA91FDA223A0B61200D7A70D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				BA91FDA723A0B72000D7A70D /* Main */,
+				BA91FDA623A0B6A900D7A70D /* Profile */,
+				BA91FDA523A0B69900D7A70D /* Transactions */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		BA91FDA323A0B63500D7A70D /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
+		BA91FDA423A0B68200D7A70D /* Sign In */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Sign In";
+			sourceTree = "<group>";
+		};
+		BA91FDA523A0B69900D7A70D /* Transactions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Transactions;
+			sourceTree = "<group>";
+		};
+		BA91FDA623A0B6A900D7A70D /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		BA91FDA723A0B72000D7A70D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				BA91FD5F23A0AF5D00D7A70D /* ViewController.swift */,
+				BA91FD6123A0AF5D00D7A70D /* Main.storyboard */,
+				BA91FDAB23A0C99F00D7A70D /* View.xib */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,6 +309,23 @@
 			productReference = BA91FD7923A0AF5F00D7A70D /* SoloFinanzasUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		BA91FD8B23A0B2F400D7A70D /* Production */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA91FD9523A0B2F400D7A70D /* Build configuration list for PBXNativeTarget "Production" */;
+			buildPhases = (
+				BA91FD8C23A0B2F400D7A70D /* Sources */,
+				BA91FD9023A0B2F400D7A70D /* Frameworks */,
+				BA91FD9123A0B2F400D7A70D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Production;
+			productName = SoloFinanzas;
+			productReference = BA91FD9823A0B2F400D7A70D /* Production.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -223,6 +365,7 @@
 				BA91FD5723A0AF5D00D7A70D /* SoloFinanzas */,
 				BA91FD6D23A0AF5F00D7A70D /* SoloFinanzasTests */,
 				BA91FD7823A0AF5F00D7A70D /* SoloFinanzasUITests */,
+				BA91FD8B23A0B2F400D7A70D /* Production */,
 			);
 		};
 /* End PBXProject section */
@@ -233,6 +376,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA91FD6823A0AF5F00D7A70D /* LaunchScreen.storyboard in Resources */,
+				BA91FDAC23A0C99F00D7A70D /* View.xib in Resources */,
+				BA91FDAA23A0B80400D7A70D /* Default-568h@2x.png in Resources */,
 				BA91FD6523A0AF5F00D7A70D /* Assets.xcassets in Resources */,
 				BA91FD6323A0AF5D00D7A70D /* Main.storyboard in Resources */,
 			);
@@ -249,6 +394,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA91FD9123A0B2F400D7A70D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA91FD9223A0B2F400D7A70D /* LaunchScreen.storyboard in Resources */,
+				BA91FDAD23A0C99F00D7A70D /* View.xib in Resources */,
+				BA91FDA923A0B7FC00D7A70D /* Default-568h@2x.png in Resources */,
+				BA91FD9323A0B2F400D7A70D /* Assets.xcassets in Resources */,
+				BA91FD9423A0B2F400D7A70D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +435,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA91FD7E23A0AF5F00D7A70D /* SoloFinanzasUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA91FD8C23A0B2F400D7A70D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA91FD8D23A0B2F400D7A70D /* ViewController.swift in Sources */,
+				BA91FD8E23A0B2F400D7A70D /* AppDelegate.swift in Sources */,
+				BA91FD8F23A0B2F400D7A70D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,7 +603,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JSFPD9RQT4;
-				INFOPLIST_FILE = SoloFinanzas/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SoloFinanzas/Base/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,7 +621,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JSFPD9RQT4;
-				INFOPLIST_FILE = SoloFinanzas/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SoloFinanzas/Base/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -550,6 +717,42 @@
 			};
 			name = Release;
 		};
+		BA91FD9623A0B2F400D7A70D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JSFPD9RQT4;
+				INFOPLIST_FILE = "$(SRCROOT)/Production.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = calere.SoloFinanzas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA91FD9723A0B2F400D7A70D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JSFPD9RQT4;
+				INFOPLIST_FILE = "$(SRCROOT)/Production.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = calere.SoloFinanzas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -585,6 +788,15 @@
 			buildConfigurations = (
 				BA91FD8923A0AF5F00D7A70D /* Debug */,
 				BA91FD8A23A0AF5F00D7A70D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA91FD9523A0B2F400D7A70D /* Build configuration list for PBXNativeTarget "Production" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA91FD9623A0B2F400D7A70D /* Debug */,
+				BA91FD9723A0B2F400D7A70D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
