@@ -7,425 +7,336 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BA6E6E1723A2B6EC0008F852 /* OnBoarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA6E6E1623A2B6EC0008F852 /* OnBoarding.storyboard */; };
-		BA6E6E1823A2B6EC0008F852 /* OnBoarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA6E6E1623A2B6EC0008F852 /* OnBoarding.storyboard */; };
-		BA91FD5C23A0AF5D00D7A70D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA91FD5B23A0AF5D00D7A70D /* AppDelegate.swift */; };
-		BA91FD5E23A0AF5D00D7A70D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA91FD5D23A0AF5D00D7A70D /* SceneDelegate.swift */; };
-		BA91FD6323A0AF5D00D7A70D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA91FD6123A0AF5D00D7A70D /* Main.storyboard */; };
-		BA91FD6523A0AF5F00D7A70D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA91FD6423A0AF5F00D7A70D /* Assets.xcassets */; };
-		BA91FD6823A0AF5F00D7A70D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA91FD6623A0AF5F00D7A70D /* LaunchScreen.storyboard */; };
-		BA91FD7323A0AF5F00D7A70D /* SoloFinanzasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA91FD7223A0AF5F00D7A70D /* SoloFinanzasTests.swift */; };
-		BA91FD7E23A0AF5F00D7A70D /* SoloFinanzasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA91FD7D23A0AF5F00D7A70D /* SoloFinanzasUITests.swift */; };
-		BA91FD8E23A0B2F400D7A70D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA91FD5B23A0AF5D00D7A70D /* AppDelegate.swift */; };
-		BA91FD8F23A0B2F400D7A70D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA91FD5D23A0AF5D00D7A70D /* SceneDelegate.swift */; };
-		BA91FD9223A0B2F400D7A70D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA91FD6623A0AF5F00D7A70D /* LaunchScreen.storyboard */; };
-		BA91FD9323A0B2F400D7A70D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA91FD6423A0AF5F00D7A70D /* Assets.xcassets */; };
-		BA91FD9423A0B2F400D7A70D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA91FD6123A0AF5D00D7A70D /* Main.storyboard */; };
-		BA91FD9C23A0B32A00D7A70D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA91FD9B23A0B32A00D7A70D /* MapKit.framework */; };
-		BA91FDAC23A0C99F00D7A70D /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA91FDAB23A0C99F00D7A70D /* View.xib */; };
-		BA91FDAD23A0C99F00D7A70D /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA91FDAB23A0C99F00D7A70D /* View.xib */; };
-		BA91FDB023A0D98400D7A70D /* Transactions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA91FDAE23A0D98400D7A70D /* Transactions.storyboard */; };
-		BA91FDB123A0D98400D7A70D /* Transactions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA91FDAE23A0D98400D7A70D /* Transactions.storyboard */; };
-		BA91FDB323A0DA7F00D7A70D /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA91FDB223A0DA7F00D7A70D /* Profile.storyboard */; };
-		BA91FDB423A0DA7F00D7A70D /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA91FDB223A0DA7F00D7A70D /* Profile.storyboard */; };
-		BA91FDB823A0DAED00D7A70D /* Budget.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA91FDB623A0DAED00D7A70D /* Budget.storyboard */; };
-		BA91FDB923A0DAED00D7A70D /* Budget.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA91FDB623A0DAED00D7A70D /* Budget.storyboard */; };
-		BA91FDBC23A0DB8900D7A70D /* Statistics.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA91FDBB23A0DB8900D7A70D /* Statistics.storyboard */; };
-		BA91FDBD23A0DB8900D7A70D /* Statistics.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA91FDBB23A0DB8900D7A70D /* Statistics.storyboard */; };
-		BA91FDC023A0DC1400D7A70D /* Add.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA91FDBF23A0DC1400D7A70D /* Add.storyboard */; };
-		BA91FDC123A0DC1400D7A70D /* Add.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA91FDBF23A0DC1400D7A70D /* Add.storyboard */; };
-		BA91FDC723A2142C00D7A70D /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA91FDC623A2142C00D7A70D /* Colors.xcassets */; };
-		BA91FDC823A2142C00D7A70D /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA91FDC623A2142C00D7A70D /* Colors.xcassets */; };
-		BA91FDCD23A224EA00D7A70D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA91FDCC23A224EA00D7A70D /* ViewController.swift */; };
-		BA91FDCE23A224EA00D7A70D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA91FDCC23A224EA00D7A70D /* ViewController.swift */; };
-		BA91FDCF23A2253E00D7A70D /* SignInTest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA91FDD223A2253E00D7A70D /* SignInTest.storyboard */; };
-		BA91FDD023A2253E00D7A70D /* SignInTest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA91FDD223A2253E00D7A70D /* SignInTest.storyboard */; };
-		BAD98E4923A2D0E5006927F1 /* Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD98E4823A2D0E5006927F1 /* Shadow.swift */; };
-		BAD98E4A23A2D0E5006927F1 /* Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD98E4823A2D0E5006927F1 /* Shadow.swift */; };
-		BAD98E4C23A2D151006927F1 /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAD98E4B23A2D150006927F1 /* SignIn.storyboard */; };
-		BAD98E4D23A2D151006927F1 /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAD98E4B23A2D150006927F1 /* SignIn.storyboard */; };
+		9F03432F219C57E300603993 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F03432E219C57E300603993 /* AppDelegate.swift */; };
+		9F034334219C57E300603993 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F034332219C57E300603993 /* Main.storyboard */; };
+		9F034336219C57E400603993 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F034335219C57E400603993 /* Assets.xcassets */; };
+		9F034339219C57E400603993 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F034337219C57E400603993 /* LaunchScreen.storyboard */; };
+		9F449FD0219C5E2D0050784B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F03432E219C57E300603993 /* AppDelegate.swift */; };
+		9F449FD3219C5E2D0050784B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F034337219C57E400603993 /* LaunchScreen.storyboard */; };
+		9F449FD4219C5E2D0050784B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F034335219C57E400603993 /* Assets.xcassets */; };
+		9F449FD5219C5E2D0050784B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F034332219C57E300603993 /* Main.storyboard */; };
+		9F449FDE219C5E830050784B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F449FDD219C5E830050784B /* MapKit.framework */; };
+		9F62FD24219C914700A83344 /* Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F62FD23219C914700A83344 /* Shadow.swift */; };
+		9F62FD28219CAEE500A83344 /* OnBoarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F62FD27219CAEE500A83344 /* OnBoarding.storyboard */; };
+		9F62FD2A219CB19D00A83344 /* OnBoardingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F62FD29219CB19D00A83344 /* OnBoardingContainerViewController.swift */; };
+		9F62FD2C219CB23100A83344 /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F62FD2B219CB23100A83344 /* OnBoardingViewController.swift */; };
+		9F62FD2E219CB4FA00A83344 /* OnBoardingStepsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F62FD2D219CB4FA00A83344 /* OnBoardingStepsViewController.swift */; };
+		9F62FD30219CC47100A83344 /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F62FD2F219CC47100A83344 /* TransactionsViewController.swift */; };
+		9FDFDF05219C6CD500CD505D /* Transactions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FDFDF04219C6CD500CD505D /* Transactions.storyboard */; };
+		9FDFDF07219C6D6500CD505D /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FDFDF06219C6D6500CD505D /* Profile.storyboard */; };
+		9FDFDF0B219C6D9E00CD505D /* Statistics.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FDFDF0A219C6D9E00CD505D /* Statistics.storyboard */; };
+		9FDFDF0E219C6DB900CD505D /* Budget.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FDFDF0C219C6DB900CD505D /* Budget.storyboard */; };
+		9FDFDF11219C6E1B00CD505D /* Add.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FDFDF10219C6E1B00CD505D /* Add.storyboard */; };
+		9FDFDF13219C6F4A00CD505D /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FDFDF12219C6F4A00CD505D /* SignIn.storyboard */; };
+		9FE368C7219CCB3100606E29 /* EmptyState.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FE368C6219CCB3100606E29 /* EmptyState.xib */; };
+		9FE368CB219DAA7400606E29 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE368CA219DAA7400606E29 /* TabBarViewController.swift */; };
+		9FE368CD219DAD5E00606E29 /* TransactionsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FE368CC219DAD5E00606E29 /* TransactionsCell.xib */; };
+		9FE368CF219DADCA00606E29 /* BudgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE368CE219DADCA00606E29 /* BudgetViewController.swift */; };
+		9FF2782A219C7E830083760B /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FF27829219C7E830083760B /* Colors.xcassets */; };
+		BA03A37023A301570026E781 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA03A36F23A301570026E781 /* Default-568h@2x.png */; };
+		BA03A37123A3015C0026E781 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA03A36F23A301570026E781 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		BA91FD6F23A0AF5F00D7A70D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BA91FD5023A0AF5D00D7A70D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BA91FD5723A0AF5D00D7A70D;
-			remoteInfo = SoloFinanzas;
-		};
-		BA91FD7A23A0AF5F00D7A70D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BA91FD5023A0AF5D00D7A70D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BA91FD5723A0AF5D00D7A70D;
-			remoteInfo = SoloFinanzas;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		BA6E6E1623A2B6EC0008F852 /* OnBoarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnBoarding.storyboard; sourceTree = "<group>"; };
-		BA91FD5823A0AF5D00D7A70D /* SoloFinanzas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoloFinanzas.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA91FD5B23A0AF5D00D7A70D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BA91FD5D23A0AF5D00D7A70D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = "/Users/dcaldera/Library/Autosave Information/SoloFinanzas/SoloFinanzas/SceneDelegate.swift"; sourceTree = "<absolute>"; };
-		BA91FD6223A0AF5D00D7A70D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BA91FD6423A0AF5F00D7A70D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BA91FD6723A0AF5F00D7A70D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		BA91FD6923A0AF5F00D7A70D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BA91FD6E23A0AF5F00D7A70D /* SoloFinanzasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoloFinanzasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA91FD7223A0AF5F00D7A70D /* SoloFinanzasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoloFinanzasTests.swift; sourceTree = "<group>"; };
-		BA91FD7423A0AF5F00D7A70D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BA91FD7923A0AF5F00D7A70D /* SoloFinanzasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoloFinanzasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA91FD7D23A0AF5F00D7A70D /* SoloFinanzasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoloFinanzasUITests.swift; sourceTree = "<group>"; };
-		BA91FD7F23A0AF5F00D7A70D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BA91FD9823A0B2F400D7A70D /* Production.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Production.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA91FD9923A0B2F500D7A70D /* Production.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Production.plist; path = "/Users/dcaldera/Library/Autosave Information/SoloFinanzas/Production.plist"; sourceTree = "<absolute>"; };
-		BA91FD9B23A0B32A00D7A70D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		BA91FDAB23A0C99F00D7A70D /* View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
-		BA91FDAF23A0D98400D7A70D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = SoloFinanzas/Application/Main/Main/Base.lproj/Transactions.storyboard; sourceTree = SOURCE_ROOT; };
-		BA91FDB223A0DA7F00D7A70D /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = SOURCE_ROOT; };
-		BA91FDB723A0DAED00D7A70D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = SoloFinanzas/Application/Main/Main/Base.lproj/Budget.storyboard; sourceTree = SOURCE_ROOT; };
-		BA91FDBB23A0DB8900D7A70D /* Statistics.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Statistics.storyboard; sourceTree = SOURCE_ROOT; };
-		BA91FDBF23A0DC1400D7A70D /* Add.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Add.storyboard; sourceTree = SOURCE_ROOT; };
-		BA91FDC623A2142C00D7A70D /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
-		BA91FDCC23A224EA00D7A70D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BA91FDD123A2253E00D7A70D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/SignInTest.storyboard; sourceTree = "<group>"; };
-		BAD98E4823A2D0E5006927F1 /* Shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadow.swift; sourceTree = "<group>"; };
-		BAD98E4B23A2D150006927F1 /* SignIn.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SignIn.storyboard; path = ../../../../../../../Downloads/SignIn.storyboard; sourceTree = "<group>"; };
+		9F03432B219C57E300603993 /* SoloFinanzas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoloFinanzas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F03432E219C57E300603993 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9F034333219C57E300603993 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F034335219C57E400603993 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F034338219C57E400603993 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F03433A219C57E400603993 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F449FD9219C5E2D0050784B /* Production.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Production.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F449FDA219C5E2D0050784B /* Production.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Production.plist; path = /Users/andresilvagomez/Desktop/PlatziFinanzas/Production.plist; sourceTree = "<absolute>"; };
+		9F449FDB219C5E740050784B /* Production.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Production.entitlements; sourceTree = "<group>"; };
+		9F449FDD219C5E830050784B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		9F62FD23219C914700A83344 /* Shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadow.swift; sourceTree = "<group>"; };
+		9F62FD27219CAEE500A83344 /* OnBoarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnBoarding.storyboard; sourceTree = "<group>"; };
+		9F62FD29219CB19D00A83344 /* OnBoardingContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingContainerViewController.swift; sourceTree = "<group>"; };
+		9F62FD2B219CB23100A83344 /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
+		9F62FD2D219CB4FA00A83344 /* OnBoardingStepsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingStepsViewController.swift; sourceTree = "<group>"; };
+		9F62FD2F219CC47100A83344 /* TransactionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsViewController.swift; sourceTree = "<group>"; };
+		9FDFDF04219C6CD500CD505D /* Transactions.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Transactions.storyboard; sourceTree = "<group>"; };
+		9FDFDF06219C6D6500CD505D /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		9FDFDF0A219C6D9E00CD505D /* Statistics.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Statistics.storyboard; sourceTree = "<group>"; };
+		9FDFDF0D219C6DB900CD505D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = PlatziFinanzas/Application/Main/Main/Base.lproj/Budget.storyboard; sourceTree = "<group>"; };
+		9FDFDF10219C6E1B00CD505D /* Add.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Add.storyboard; sourceTree = "<group>"; };
+		9FDFDF12219C6F4A00CD505D /* SignIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
+		9FE368C6219CCB3100606E29 /* EmptyState.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmptyState.xib; sourceTree = "<group>"; };
+		9FE368CA219DAA7400606E29 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		9FE368CC219DAD5E00606E29 /* TransactionsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransactionsCell.xib; sourceTree = "<group>"; };
+		9FE368CE219DADCA00606E29 /* BudgetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetViewController.swift; sourceTree = "<group>"; };
+		9FF27829219C7E830083760B /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		BA03A36F23A301570026E781 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BA91FD5523A0AF5D00D7A70D /* Frameworks */ = {
+		9F034328219C57E300603993 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BA91FD6B23A0AF5F00D7A70D /* Frameworks */ = {
+		9F449FD1219C5E2D0050784B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BA91FD7623A0AF5F00D7A70D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BA91FD9023A0B2F400D7A70D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BA91FD9C23A0B32A00D7A70D /* MapKit.framework in Frameworks */,
+				9F449FDE219C5E830050784B /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BA91FD4F23A0AF5D00D7A70D = {
+		9F034322219C57E300603993 = {
 			isa = PBXGroup;
 			children = (
-				BA91FD5A23A0AF5D00D7A70D /* SoloFinanzas */,
-				BA91FD7123A0AF5F00D7A70D /* SoloFinanzasTests */,
-				BA91FD7C23A0AF5F00D7A70D /* SoloFinanzasUITests */,
-				BA91FD5923A0AF5D00D7A70D /* Products */,
-				BA91FD9A23A0B32A00D7A70D /* Frameworks */,
+				BA03A36F23A301570026E781 /* Default-568h@2x.png */,
+				9F449FDB219C5E740050784B /* Production.entitlements */,
+				9F03432D219C57E300603993 /* SoloFinanzas */,
+				9F03432C219C57E300603993 /* Products */,
+				9F449FDC219C5E830050784B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		BA91FD5923A0AF5D00D7A70D /* Products */ = {
+		9F03432C219C57E300603993 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BA91FD5823A0AF5D00D7A70D /* SoloFinanzas.app */,
-				BA91FD6E23A0AF5F00D7A70D /* SoloFinanzasTests.xctest */,
-				BA91FD7923A0AF5F00D7A70D /* SoloFinanzasUITests.xctest */,
-				BA91FD9823A0B2F400D7A70D /* Production.app */,
+				9F03432B219C57E300603993 /* SoloFinanzas.app */,
+				9F449FD9219C5E2D0050784B /* Production.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BA91FD5A23A0AF5D00D7A70D /* SoloFinanzas */ = {
+		9F03432D219C57E300603993 /* SoloFinanzas */ = {
 			isa = PBXGroup;
 			children = (
-				BAD98E4723A2D0C7006927F1 /* Extensions */,
-				BA91FD9F23A0B5BE00D7A70D /* Resources */,
-				BA91FD9E23A0B54F00D7A70D /* Base */,
-				BA91FD9D23A0B53300D7A70D /* Application */,
-				BA91FD5D23A0AF5D00D7A70D /* SceneDelegate.swift */,
+				9F62FD22219C913100A83344 /* Extensions */,
+				9F449FE2219C60410050784B /* Resources */,
+				9F449FE1219C601C0050784B /* Base */,
+				9F449FE0219C60080050784B /* Application */,
 			);
 			path = SoloFinanzas;
 			sourceTree = "<group>";
 		};
-		BA91FD7123A0AF5F00D7A70D /* SoloFinanzasTests */ = {
+		9F449FDC219C5E830050784B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BA91FD7223A0AF5F00D7A70D /* SoloFinanzasTests.swift */,
-				BA91FD7423A0AF5F00D7A70D /* Info.plist */,
-			);
-			path = SoloFinanzasTests;
-			sourceTree = "<group>";
-		};
-		BA91FD7C23A0AF5F00D7A70D /* SoloFinanzasUITests */ = {
-			isa = PBXGroup;
-			children = (
-				BA91FD7D23A0AF5F00D7A70D /* SoloFinanzasUITests.swift */,
-				BA91FD7F23A0AF5F00D7A70D /* Info.plist */,
-			);
-			path = SoloFinanzasUITests;
-			sourceTree = "<group>";
-		};
-		BA91FD9A23A0B32A00D7A70D /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				BA91FD9B23A0B32A00D7A70D /* MapKit.framework */,
+				9F449FDD219C5E830050784B /* MapKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BA91FD9D23A0B53300D7A70D /* Application */ = {
+		9F449FE0219C60080050784B /* Application */ = {
 			isa = PBXGroup;
 			children = (
-				BA91FDA223A0B61200D7A70D /* Main */,
-				BA91FDA123A0B5F800D7A70D /* Authentication */,
+				9F449FE5219C606F0050784B /* Main */,
+				9F449FE4219C60610050784B /* Authentication */,
 			);
 			path = Application;
 			sourceTree = "<group>";
 		};
-		BA91FD9E23A0B54F00D7A70D /* Base */ = {
+		9F449FE1219C601C0050784B /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				BA91FD9923A0B2F500D7A70D /* Production.plist */,
-				BA91FD6923A0AF5F00D7A70D /* Info.plist */,
-				BA91FD5B23A0AF5D00D7A70D /* AppDelegate.swift */,
-				BA91FD6623A0AF5F00D7A70D /* LaunchScreen.storyboard */,
+				9F03432E219C57E300603993 /* AppDelegate.swift */,
+				9F03433A219C57E400603993 /* Info.plist */,
+				9F449FDA219C5E2D0050784B /* Production.plist */,
+				9F034337219C57E400603993 /* LaunchScreen.storyboard */,
 			);
 			path = Base;
 			sourceTree = "<group>";
 		};
-		BA91FD9F23A0B5BE00D7A70D /* Resources */ = {
+		9F449FE2219C60410050784B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				BA91FDC523A213F500D7A70D /* Colors */,
-				BA91FDA023A0B5D300D7A70D /* Images */,
+				9FF27828219C7E700083760B /* Colors */,
+				9F449FE3219C60520050784B /* Images */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		BA91FDA023A0B5D300D7A70D /* Images */ = {
+		9F449FE3219C60520050784B /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				BA91FD6423A0AF5F00D7A70D /* Assets.xcassets */,
+				9F034335219C57E400603993 /* Assets.xcassets */,
 			);
 			path = Images;
 			sourceTree = "<group>";
 		};
-		BA91FDA123A0B5F800D7A70D /* Authentication */ = {
+		9F449FE4219C60610050784B /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
-				BA91FDA423A0B68200D7A70D /* Sign In */,
-				BA91FDA323A0B63500D7A70D /* OnBoarding */,
+				9F449FE7219C608A0050784B /* Sign In */,
+				9F449FE6219C60790050784B /* OnBoarding */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
 		};
-		BA91FDA223A0B61200D7A70D /* Main */ = {
+		9F449FE5219C606F0050784B /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				BA91FDBE23A0DC0400D7A70D /* Add */,
-				BA91FDBA23A0DB0A00D7A70D /* Statistics */,
-				BA91FDB523A0DACE00D7A70D /* Budget */,
-				BA91FDA723A0B72000D7A70D /* Main */,
-				BA91FDA623A0B6A900D7A70D /* Profile */,
-				BA91FDA523A0B69900D7A70D /* Transactions */,
+				9FDFDF0F219C6DC300CD505D /* Add */,
+				9FDFDF09219C6D7700CD505D /* Statistics */,
+				9FDFDF08219C6D6E00CD505D /* Budget */,
+				9F449FEA219C60AE0050784B /* Main */,
+				9F449FE9219C60A30050784B /* Profile */,
+				9F449FE8219C609A0050784B /* Transactions */,
 			);
 			path = Main;
 			sourceTree = "<group>";
 		};
-		BA91FDA323A0B63500D7A70D /* OnBoarding */ = {
+		9F449FE6219C60790050784B /* OnBoarding */ = {
 			isa = PBXGroup;
 			children = (
-				BA6E6E1623A2B6EC0008F852 /* OnBoarding.storyboard */,
+				9F62FD27219CAEE500A83344 /* OnBoarding.storyboard */,
+				9F62FD29219CB19D00A83344 /* OnBoardingContainerViewController.swift */,
+				9F62FD2B219CB23100A83344 /* OnBoardingViewController.swift */,
+				9F62FD2D219CB4FA00A83344 /* OnBoardingStepsViewController.swift */,
 			);
 			path = OnBoarding;
 			sourceTree = "<group>";
 		};
-		BA91FDA423A0B68200D7A70D /* Sign In */ = {
+		9F449FE7219C608A0050784B /* Sign In */ = {
 			isa = PBXGroup;
 			children = (
-				BAD98E4B23A2D150006927F1 /* SignIn.storyboard */,
-				BA91FDD223A2253E00D7A70D /* SignInTest.storyboard */,
+				9FDFDF12219C6F4A00CD505D /* SignIn.storyboard */,
 			);
 			path = "Sign In";
 			sourceTree = "<group>";
 		};
-		BA91FDA523A0B69900D7A70D /* Transactions */ = {
+		9F449FE8219C609A0050784B /* Transactions */ = {
 			isa = PBXGroup;
 			children = (
-				BA91FDAE23A0D98400D7A70D /* Transactions.storyboard */,
+				9FDFDF04219C6CD500CD505D /* Transactions.storyboard */,
+				9F62FD2F219CC47100A83344 /* TransactionsViewController.swift */,
+				9FE368C6219CCB3100606E29 /* EmptyState.xib */,
+				9FE368CC219DAD5E00606E29 /* TransactionsCell.xib */,
 			);
 			path = Transactions;
 			sourceTree = "<group>";
 		};
-		BA91FDA623A0B6A900D7A70D /* Profile */ = {
+		9F449FE9219C60A30050784B /* Profile */ = {
 			isa = PBXGroup;
 			children = (
-				BA91FDB223A0DA7F00D7A70D /* Profile.storyboard */,
+				9FDFDF06219C6D6500CD505D /* Profile.storyboard */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
 		};
-		BA91FDA723A0B72000D7A70D /* Main */ = {
+		9F449FEA219C60AE0050784B /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				BA91FDCC23A224EA00D7A70D /* ViewController.swift */,
-				BA91FD6123A0AF5D00D7A70D /* Main.storyboard */,
-				BA91FDAB23A0C99F00D7A70D /* View.xib */,
+				9F034332219C57E300603993 /* Main.storyboard */,
+				9FE368CA219DAA7400606E29 /* TabBarViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
 		};
-		BA91FDB523A0DACE00D7A70D /* Budget */ = {
+		9F62FD22219C913100A83344 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				BA91FDB623A0DAED00D7A70D /* Budget.storyboard */,
+				9F62FD23219C914700A83344 /* Shadow.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9FDFDF08219C6D6E00CD505D /* Budget */ = {
+			isa = PBXGroup;
+			children = (
+				9FDFDF0C219C6DB900CD505D /* Budget.storyboard */,
+				9FE368CE219DADCA00606E29 /* BudgetViewController.swift */,
 			);
 			path = Budget;
 			sourceTree = "<group>";
 		};
-		BA91FDBA23A0DB0A00D7A70D /* Statistics */ = {
+		9FDFDF09219C6D7700CD505D /* Statistics */ = {
 			isa = PBXGroup;
 			children = (
-				BA91FDBB23A0DB8900D7A70D /* Statistics.storyboard */,
+				9FDFDF0A219C6D9E00CD505D /* Statistics.storyboard */,
 			);
 			path = Statistics;
 			sourceTree = "<group>";
 		};
-		BA91FDBE23A0DC0400D7A70D /* Add */ = {
+		9FDFDF0F219C6DC300CD505D /* Add */ = {
 			isa = PBXGroup;
 			children = (
-				BA91FDBF23A0DC1400D7A70D /* Add.storyboard */,
+				9FDFDF10219C6E1B00CD505D /* Add.storyboard */,
 			);
 			path = Add;
 			sourceTree = "<group>";
 		};
-		BA91FDC523A213F500D7A70D /* Colors */ = {
+		9FF27828219C7E700083760B /* Colors */ = {
 			isa = PBXGroup;
 			children = (
-				BA91FDC623A2142C00D7A70D /* Colors.xcassets */,
+				9FF27829219C7E830083760B /* Colors.xcassets */,
 			);
 			path = Colors;
-			sourceTree = "<group>";
-		};
-		BAD98E4723A2D0C7006927F1 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				BAD98E4823A2D0E5006927F1 /* Shadow.swift */,
-			);
-			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BA91FD5723A0AF5D00D7A70D /* SoloFinanzas */ = {
+		9F03432A219C57E300603993 /* SoloFinanzas */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BA91FD8223A0AF5F00D7A70D /* Build configuration list for PBXNativeTarget "SoloFinanzas" */;
+			buildConfigurationList = 9F03433D219C57E400603993 /* Build configuration list for PBXNativeTarget "SoloFinanzas" */;
 			buildPhases = (
-				BA91FD5423A0AF5D00D7A70D /* Sources */,
-				BA91FD5523A0AF5D00D7A70D /* Frameworks */,
-				BA91FD5623A0AF5D00D7A70D /* Resources */,
+				9F034327219C57E300603993 /* Sources */,
+				9F034328219C57E300603993 /* Frameworks */,
+				9F034329219C57E300603993 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = SoloFinanzas;
-			productName = SoloFinanzas;
-			productReference = BA91FD5823A0AF5D00D7A70D /* SoloFinanzas.app */;
+			productName = PlatziFinanzas;
+			productReference = 9F03432B219C57E300603993 /* SoloFinanzas.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BA91FD6D23A0AF5F00D7A70D /* SoloFinanzasTests */ = {
+		9F449FCD219C5E2D0050784B /* Production */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BA91FD8523A0AF5F00D7A70D /* Build configuration list for PBXNativeTarget "SoloFinanzasTests" */;
+			buildConfigurationList = 9F449FD6219C5E2D0050784B /* Build configuration list for PBXNativeTarget "Production" */;
 			buildPhases = (
-				BA91FD6A23A0AF5F00D7A70D /* Sources */,
-				BA91FD6B23A0AF5F00D7A70D /* Frameworks */,
-				BA91FD6C23A0AF5F00D7A70D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BA91FD7023A0AF5F00D7A70D /* PBXTargetDependency */,
-			);
-			name = SoloFinanzasTests;
-			productName = SoloFinanzasTests;
-			productReference = BA91FD6E23A0AF5F00D7A70D /* SoloFinanzasTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		BA91FD7823A0AF5F00D7A70D /* SoloFinanzasUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BA91FD8823A0AF5F00D7A70D /* Build configuration list for PBXNativeTarget "SoloFinanzasUITests" */;
-			buildPhases = (
-				BA91FD7523A0AF5F00D7A70D /* Sources */,
-				BA91FD7623A0AF5F00D7A70D /* Frameworks */,
-				BA91FD7723A0AF5F00D7A70D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BA91FD7B23A0AF5F00D7A70D /* PBXTargetDependency */,
-			);
-			name = SoloFinanzasUITests;
-			productName = SoloFinanzasUITests;
-			productReference = BA91FD7923A0AF5F00D7A70D /* SoloFinanzasUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-		BA91FD8B23A0B2F400D7A70D /* Production */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BA91FD9523A0B2F400D7A70D /* Build configuration list for PBXNativeTarget "Production" */;
-			buildPhases = (
-				BA91FD8C23A0B2F400D7A70D /* Sources */,
-				BA91FD9023A0B2F400D7A70D /* Frameworks */,
-				BA91FD9123A0B2F400D7A70D /* Resources */,
+				9F449FCE219C5E2D0050784B /* Sources */,
+				9F449FD1219C5E2D0050784B /* Frameworks */,
+				9F449FD2219C5E2D0050784B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Production;
-			productName = SoloFinanzas;
-			productReference = BA91FD9823A0B2F400D7A70D /* Production.app */;
+			productName = PlatziFinanzas;
+			productReference = 9F449FD9219C5E2D0050784B /* Production.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BA91FD5023A0AF5D00D7A70D /* Project object */ = {
+		9F034323219C57E300603993 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1110;
-				LastUpgradeCheck = 1110;
-				ORGANIZATIONNAME = "Daniel Caldera";
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Platzi;
 				TargetAttributes = {
-					BA91FD5723A0AF5D00D7A70D = {
-						CreatedOnToolsVersion = 11.1;
+					9F03432A219C57E300603993 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1110;
 					};
-					BA91FD6D23A0AF5F00D7A70D = {
-						CreatedOnToolsVersion = 11.1;
-						TestTargetID = BA91FD5723A0AF5D00D7A70D;
-					};
-					BA91FD7823A0AF5F00D7A70D = {
-						CreatedOnToolsVersion = 11.1;
-						TestTargetID = BA91FD5723A0AF5D00D7A70D;
+					9F449FCD219C5E2D0050784B = {
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
-			buildConfigurationList = BA91FD5323A0AF5D00D7A70D /* Build configuration list for PBXProject "SoloFinanzas" */;
+			buildConfigurationList = 9F034326219C57E300603993 /* Build configuration list for PBXProject "SoloFinanzas" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -433,175 +344,107 @@
 				en,
 				Base,
 			);
-			mainGroup = BA91FD4F23A0AF5D00D7A70D;
-			productRefGroup = BA91FD5923A0AF5D00D7A70D /* Products */;
+			mainGroup = 9F034322219C57E300603993;
+			productRefGroup = 9F03432C219C57E300603993 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BA91FD5723A0AF5D00D7A70D /* SoloFinanzas */,
-				BA91FD6D23A0AF5F00D7A70D /* SoloFinanzasTests */,
-				BA91FD7823A0AF5F00D7A70D /* SoloFinanzasUITests */,
-				BA91FD8B23A0B2F400D7A70D /* Production */,
+				9F03432A219C57E300603993 /* SoloFinanzas */,
+				9F449FCD219C5E2D0050784B /* Production */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BA91FD5623A0AF5D00D7A70D /* Resources */ = {
+		9F034329219C57E300603993 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA91FD6823A0AF5F00D7A70D /* LaunchScreen.storyboard in Resources */,
-				BA91FDAC23A0C99F00D7A70D /* View.xib in Resources */,
-				BA91FDC023A0DC1400D7A70D /* Add.storyboard in Resources */,
-				BA91FDB823A0DAED00D7A70D /* Budget.storyboard in Resources */,
-				BA91FDB023A0D98400D7A70D /* Transactions.storyboard in Resources */,
-				BA91FDCF23A2253E00D7A70D /* SignInTest.storyboard in Resources */,
-				BA91FD6523A0AF5F00D7A70D /* Assets.xcassets in Resources */,
-				BA91FDBC23A0DB8900D7A70D /* Statistics.storyboard in Resources */,
-				BA91FDC723A2142C00D7A70D /* Colors.xcassets in Resources */,
-				BAD98E4C23A2D151006927F1 /* SignIn.storyboard in Resources */,
-				BA6E6E1723A2B6EC0008F852 /* OnBoarding.storyboard in Resources */,
-				BA91FDB323A0DA7F00D7A70D /* Profile.storyboard in Resources */,
-				BA91FD6323A0AF5D00D7A70D /* Main.storyboard in Resources */,
+				9FDFDF07219C6D6500CD505D /* Profile.storyboard in Resources */,
+				9FE368C7219CCB3100606E29 /* EmptyState.xib in Resources */,
+				9FF2782A219C7E830083760B /* Colors.xcassets in Resources */,
+				9F034339219C57E400603993 /* LaunchScreen.storyboard in Resources */,
+				9FDFDF0E219C6DB900CD505D /* Budget.storyboard in Resources */,
+				BA03A37123A3015C0026E781 /* Default-568h@2x.png in Resources */,
+				9FDFDF11219C6E1B00CD505D /* Add.storyboard in Resources */,
+				9F034336219C57E400603993 /* Assets.xcassets in Resources */,
+				9FDFDF13219C6F4A00CD505D /* SignIn.storyboard in Resources */,
+				9FE368CD219DAD5E00606E29 /* TransactionsCell.xib in Resources */,
+				9F034334219C57E300603993 /* Main.storyboard in Resources */,
+				9FDFDF0B219C6D9E00CD505D /* Statistics.storyboard in Resources */,
+				9FDFDF05219C6CD500CD505D /* Transactions.storyboard in Resources */,
+				9F62FD28219CAEE500A83344 /* OnBoarding.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BA91FD6C23A0AF5F00D7A70D /* Resources */ = {
+		9F449FD2219C5E2D0050784B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BA91FD7723A0AF5F00D7A70D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BA91FD9123A0B2F400D7A70D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BA91FD9223A0B2F400D7A70D /* LaunchScreen.storyboard in Resources */,
-				BA91FDAD23A0C99F00D7A70D /* View.xib in Resources */,
-				BA91FDC123A0DC1400D7A70D /* Add.storyboard in Resources */,
-				BA91FDB923A0DAED00D7A70D /* Budget.storyboard in Resources */,
-				BA91FDB123A0D98400D7A70D /* Transactions.storyboard in Resources */,
-				BA91FDD023A2253E00D7A70D /* SignInTest.storyboard in Resources */,
-				BA91FD9323A0B2F400D7A70D /* Assets.xcassets in Resources */,
-				BA91FDBD23A0DB8900D7A70D /* Statistics.storyboard in Resources */,
-				BA91FDC823A2142C00D7A70D /* Colors.xcassets in Resources */,
-				BAD98E4D23A2D151006927F1 /* SignIn.storyboard in Resources */,
-				BA6E6E1823A2B6EC0008F852 /* OnBoarding.storyboard in Resources */,
-				BA91FDB423A0DA7F00D7A70D /* Profile.storyboard in Resources */,
-				BA91FD9423A0B2F400D7A70D /* Main.storyboard in Resources */,
+				9F449FD3219C5E2D0050784B /* LaunchScreen.storyboard in Resources */,
+				BA03A37023A301570026E781 /* Default-568h@2x.png in Resources */,
+				9F449FD4219C5E2D0050784B /* Assets.xcassets in Resources */,
+				9F449FD5219C5E2D0050784B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BA91FD5423A0AF5D00D7A70D /* Sources */ = {
+		9F034327219C57E300603993 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA91FDCD23A224EA00D7A70D /* ViewController.swift in Sources */,
-				BAD98E4923A2D0E5006927F1 /* Shadow.swift in Sources */,
-				BA91FD5C23A0AF5D00D7A70D /* AppDelegate.swift in Sources */,
-				BA91FD5E23A0AF5D00D7A70D /* SceneDelegate.swift in Sources */,
+				9F62FD30219CC47100A83344 /* TransactionsViewController.swift in Sources */,
+				9F62FD24219C914700A83344 /* Shadow.swift in Sources */,
+				9F62FD2E219CB4FA00A83344 /* OnBoardingStepsViewController.swift in Sources */,
+				9F03432F219C57E300603993 /* AppDelegate.swift in Sources */,
+				9FE368CB219DAA7400606E29 /* TabBarViewController.swift in Sources */,
+				9F62FD2A219CB19D00A83344 /* OnBoardingContainerViewController.swift in Sources */,
+				9F62FD2C219CB23100A83344 /* OnBoardingViewController.swift in Sources */,
+				9FE368CF219DADCA00606E29 /* BudgetViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BA91FD6A23A0AF5F00D7A70D /* Sources */ = {
+		9F449FCE219C5E2D0050784B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA91FD7323A0AF5F00D7A70D /* SoloFinanzasTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BA91FD7523A0AF5F00D7A70D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BA91FD7E23A0AF5F00D7A70D /* SoloFinanzasUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BA91FD8C23A0B2F400D7A70D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BA91FDCE23A224EA00D7A70D /* ViewController.swift in Sources */,
-				BAD98E4A23A2D0E5006927F1 /* Shadow.swift in Sources */,
-				BA91FD8E23A0B2F400D7A70D /* AppDelegate.swift in Sources */,
-				BA91FD8F23A0B2F400D7A70D /* SceneDelegate.swift in Sources */,
+				9F449FD0219C5E2D0050784B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		BA91FD7023A0AF5F00D7A70D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BA91FD5723A0AF5D00D7A70D /* SoloFinanzas */;
-			targetProxy = BA91FD6F23A0AF5F00D7A70D /* PBXContainerItemProxy */;
-		};
-		BA91FD7B23A0AF5F00D7A70D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BA91FD5723A0AF5D00D7A70D /* SoloFinanzas */;
-			targetProxy = BA91FD7A23A0AF5F00D7A70D /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		BA91FD6123A0AF5D00D7A70D /* Main.storyboard */ = {
+		9F034332219C57E300603993 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BA91FD6223A0AF5D00D7A70D /* Base */,
+				9F034333219C57E300603993 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		BA91FD6623A0AF5F00D7A70D /* LaunchScreen.storyboard */ = {
+		9F034337219C57E400603993 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BA91FD6723A0AF5F00D7A70D /* Base */,
+				9F034338219C57E400603993 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		BA91FDAE23A0D98400D7A70D /* Transactions.storyboard */ = {
+		9FDFDF0C219C6DB900CD505D /* Budget.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BA91FDAF23A0D98400D7A70D /* Base */,
-			);
-			name = Transactions.storyboard;
-			sourceTree = "<group>";
-		};
-		BA91FDB623A0DAED00D7A70D /* Budget.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BA91FDB723A0DAED00D7A70D /* Base */,
+				9FDFDF0D219C6DB900CD505D /* Base */,
 			);
 			name = Budget.storyboard;
-			sourceTree = "<group>";
-		};
-		BA91FDD223A2253E00D7A70D /* SignInTest.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BA91FDD123A2253E00D7A70D /* Base */,
-			);
-			name = SignInTest.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		BA91FD8023A0AF5F00D7A70D /* Debug */ = {
+		9F03433B219C57E400603993 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -633,6 +476,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -651,7 +495,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -661,7 +505,7 @@
 			};
 			name = Debug;
 		};
-		BA91FD8123A0AF5F00D7A70D /* Release */ = {
+		9F03433C219C57E400603993 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -693,6 +537,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -705,7 +550,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -715,13 +560,14 @@
 			};
 			name = Release;
 		};
-		BA91FD8323A0AF5F00D7A70D /* Debug */ = {
+		9F03433E219C57E400603993 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JSFPD9RQT4;
 				INFOPLIST_FILE = "$(SRCROOT)/SoloFinanzas/Base/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -729,197 +575,100 @@
 				PRODUCT_BUNDLE_IDENTIFIER = calere.SoloFinanzas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		BA91FD8423A0AF5F00D7A70D /* Release */ = {
+		9F03433F219C57E400603993 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JSFPD9RQT4;
 				INFOPLIST_FILE = "$(SRCROOT)/SoloFinanzas/Base/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = calere.SoloFinanzas;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		BA91FD8623A0AF5F00D7A70D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JSFPD9RQT4;
-				INFOPLIST_FILE = SoloFinanzasTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = calere.SoloFinanzasTests;
+				PRODUCT_BUNDLE_IDENTIFIER = calere.SoloFinanzas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoloFinanzas.app/SoloFinanzas";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
-			name = Debug;
+			name = Release;
 		};
-		BA91FD8723A0AF5F00D7A70D /* Release */ = {
+		9F449FD7219C5E2D0050784B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Production.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JSFPD9RQT4;
-				INFOPLIST_FILE = SoloFinanzasTests/Info.plist;
+				DEVELOPMENT_TEAM = 69RRCEKXZC;
+				INFOPLIST_FILE = "$(SRCROOT)/PlatziFinanzas/Base/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = calere.SoloFinanzasTests;
+				PRODUCT_BUNDLE_IDENTIFIER = calere.SoloFinanzas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoloFinanzas.app/SoloFinanzas";
-			};
-			name = Release;
-		};
-		BA91FD8923A0AF5F00D7A70D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JSFPD9RQT4;
-				INFOPLIST_FILE = SoloFinanzasUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = calere.SoloFinanzasUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SoloFinanzas;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		BA91FD8A23A0AF5F00D7A70D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JSFPD9RQT4;
-				INFOPLIST_FILE = SoloFinanzasUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = calere.SoloFinanzasUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SoloFinanzas;
-			};
-			name = Release;
-		};
-		BA91FD9623A0B2F400D7A70D /* Debug */ = {
+		9F449FD8219C5E2D0050784B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Production.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JSFPD9RQT4;
-				INFOPLIST_FILE = "$(SRCROOT)/Production.plist";
+				DEVELOPMENT_TEAM = 69RRCEKXZC;
+				INFOPLIST_FILE = "$(SRCROOT)/PlatziFinanzas/Base/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = calere.SoloFinanzas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		BA91FD9723A0B2F400D7A70D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JSFPD9RQT4;
-				INFOPLIST_FILE = "$(SRCROOT)/Production.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = calere.SoloFinanzas;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BA91FD5323A0AF5D00D7A70D /* Build configuration list for PBXProject "SoloFinanzas" */ = {
+		9F034326219C57E300603993 /* Build configuration list for PBXProject "SoloFinanzas" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BA91FD8023A0AF5F00D7A70D /* Debug */,
-				BA91FD8123A0AF5F00D7A70D /* Release */,
+				9F03433B219C57E400603993 /* Debug */,
+				9F03433C219C57E400603993 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BA91FD8223A0AF5F00D7A70D /* Build configuration list for PBXNativeTarget "SoloFinanzas" */ = {
+		9F03433D219C57E400603993 /* Build configuration list for PBXNativeTarget "SoloFinanzas" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BA91FD8323A0AF5F00D7A70D /* Debug */,
-				BA91FD8423A0AF5F00D7A70D /* Release */,
+				9F03433E219C57E400603993 /* Debug */,
+				9F03433F219C57E400603993 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BA91FD8523A0AF5F00D7A70D /* Build configuration list for PBXNativeTarget "SoloFinanzasTests" */ = {
+		9F449FD6219C5E2D0050784B /* Build configuration list for PBXNativeTarget "Production" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BA91FD8623A0AF5F00D7A70D /* Debug */,
-				BA91FD8723A0AF5F00D7A70D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BA91FD8823A0AF5F00D7A70D /* Build configuration list for PBXNativeTarget "SoloFinanzasUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BA91FD8923A0AF5F00D7A70D /* Debug */,
-				BA91FD8A23A0AF5F00D7A70D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BA91FD9523A0B2F400D7A70D /* Build configuration list for PBXNativeTarget "Production" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BA91FD9623A0B2F400D7A70D /* Debug */,
-				BA91FD9723A0B2F400D7A70D /* Release */,
+				9F449FD7219C5E2D0050784B /* Debug */,
+				9F449FD8219C5E2D0050784B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = BA91FD5023A0AF5D00D7A70D /* Project object */;
+	rootObject = 9F034323219C57E300603993 /* Project object */;
 }
