@@ -11,11 +11,6 @@
 		9F034334219C57E300603993 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F034332219C57E300603993 /* Main.storyboard */; };
 		9F034336219C57E400603993 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F034335219C57E400603993 /* Assets.xcassets */; };
 		9F034339219C57E400603993 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F034337219C57E400603993 /* LaunchScreen.storyboard */; };
-		9F449FD0219C5E2D0050784B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F03432E219C57E300603993 /* AppDelegate.swift */; };
-		9F449FD3219C5E2D0050784B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F034337219C57E400603993 /* LaunchScreen.storyboard */; };
-		9F449FD4219C5E2D0050784B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F034335219C57E400603993 /* Assets.xcassets */; };
-		9F449FD5219C5E2D0050784B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F034332219C57E300603993 /* Main.storyboard */; };
-		9F449FDE219C5E830050784B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F449FDD219C5E830050784B /* MapKit.framework */; };
 		9F62FD24219C914700A83344 /* Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F62FD23219C914700A83344 /* Shadow.swift */; };
 		9F62FD28219CAEE500A83344 /* OnBoarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F62FD27219CAEE500A83344 /* OnBoarding.storyboard */; };
 		9F62FD2A219CB19D00A83344 /* OnBoardingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F62FD29219CB19D00A83344 /* OnBoardingContainerViewController.swift */; };
@@ -33,7 +28,6 @@
 		9FE368CD219DAD5E00606E29 /* TransactionsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FE368CC219DAD5E00606E29 /* TransactionsCell.xib */; };
 		9FE368CF219DADCA00606E29 /* BudgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE368CE219DADCA00606E29 /* BudgetViewController.swift */; };
 		9FF2782A219C7E830083760B /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FF27829219C7E830083760B /* Colors.xcassets */; };
-		BA03A37023A301570026E781 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA03A36F23A301570026E781 /* Default-568h@2x.png */; };
 		BA03A37123A3015C0026E781 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA03A36F23A301570026E781 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
@@ -44,7 +38,6 @@
 		9F034335219C57E400603993 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F034338219C57E400603993 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F03433A219C57E400603993 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9F449FD9219C5E2D0050784B /* Production.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Production.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F449FDA219C5E2D0050784B /* Production.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Production.plist; path = /Users/andresilvagomez/Desktop/PlatziFinanzas/Production.plist; sourceTree = "<absolute>"; };
 		9F449FDB219C5E740050784B /* Production.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Production.entitlements; sourceTree = "<group>"; };
 		9F449FDD219C5E830050784B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
@@ -76,14 +69,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9F449FD1219C5E2D0050784B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9F449FDE219C5E830050784B /* MapKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -102,7 +87,6 @@
 			isa = PBXGroup;
 			children = (
 				9F03432B219C57E300603993 /* SoloFinanzas.app */,
-				9F449FD9219C5E2D0050784B /* Production.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -293,23 +277,6 @@
 			productReference = 9F03432B219C57E300603993 /* SoloFinanzas.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9F449FCD219C5E2D0050784B /* Production */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9F449FD6219C5E2D0050784B /* Build configuration list for PBXNativeTarget "Production" */;
-			buildPhases = (
-				9F449FCE219C5E2D0050784B /* Sources */,
-				9F449FD1219C5E2D0050784B /* Frameworks */,
-				9F449FD2219C5E2D0050784B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Production;
-			productName = PlatziFinanzas;
-			productReference = 9F449FD9219C5E2D0050784B /* Production.app */;
-			productType = "com.apple.product-type.application";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -323,16 +290,6 @@
 					9F03432A219C57E300603993 = {
 						CreatedOnToolsVersion = 10.1;
 						LastSwiftMigration = 1110;
-					};
-					9F449FCD219C5E2D0050784B = {
-						SystemCapabilities = {
-							com.apple.Maps.iOS = {
-								enabled = 1;
-							};
-							com.apple.Push = {
-								enabled = 1;
-							};
-						};
 					};
 				};
 			};
@@ -350,7 +307,6 @@
 			projectRoot = "";
 			targets = (
 				9F03432A219C57E300603993 /* SoloFinanzas */,
-				9F449FCD219C5E2D0050784B /* Production */,
 			);
 		};
 /* End PBXProject section */
@@ -377,17 +333,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9F449FD2219C5E2D0050784B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9F449FD3219C5E2D0050784B /* LaunchScreen.storyboard in Resources */,
-				BA03A37023A301570026E781 /* Default-568h@2x.png in Resources */,
-				9F449FD4219C5E2D0050784B /* Assets.xcassets in Resources */,
-				9F449FD5219C5E2D0050784B /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -403,14 +348,6 @@
 				9F62FD2A219CB19D00A83344 /* OnBoardingContainerViewController.swift in Sources */,
 				9F62FD2C219CB23100A83344 /* OnBoardingViewController.swift in Sources */,
 				9FE368CF219DADCA00606E29 /* BudgetViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9F449FCE219C5E2D0050784B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9F449FD0219C5E2D0050784B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -598,46 +535,6 @@
 			};
 			name = Release;
 		};
-		9F449FD7219C5E2D0050784B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Production.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 69RRCEKXZC;
-				INFOPLIST_FILE = "$(SRCROOT)/PlatziFinanzas/Base/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = calere.SoloFinanzas;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Debug;
-		};
-		9F449FD8219C5E2D0050784B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Production.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 69RRCEKXZC;
-				INFOPLIST_FILE = "$(SRCROOT)/PlatziFinanzas/Base/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = calere.SoloFinanzas;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -655,15 +552,6 @@
 			buildConfigurations = (
 				9F03433E219C57E400603993 /* Debug */,
 				9F03433F219C57E400603993 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9F449FD6219C5E2D0050784B /* Build configuration list for PBXNativeTarget "Production" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9F449FD7219C5E2D0050784B /* Debug */,
-				9F449FD8219C5E2D0050784B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
