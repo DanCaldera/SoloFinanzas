@@ -34,6 +34,7 @@
 		BA2AD84823A47C7F00AC2464 /* day_of_the_dead_skull.json in Resources */ = {isa = PBXBuildFile; fileRef = BA2AD84523A47C7F00AC2464 /* day_of_the_dead_skull.json */; };
 		BA2AD84923A47C7F00AC2464 /* LottieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2AD84623A47C7F00AC2464 /* LottieViewController.swift */; };
 		BA2AD84A23A47C7F00AC2464 /* Lottie.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA2AD84723A47C7F00AC2464 /* Lottie.storyboard */; };
+		F11DDCC88FDD69E62A1295C4 /* Pods_SoloFinanzas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CE0DB805961C77AD294D7D /* Pods_SoloFinanzas.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -51,6 +52,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		40CE0DB805961C77AD294D7D /* Pods_SoloFinanzas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SoloFinanzas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79F1215383B1F1DD20214010 /* Pods-SoloFinanzas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoloFinanzas.release.xcconfig"; path = "Target Support Files/Pods-SoloFinanzas/Pods-SoloFinanzas.release.xcconfig"; sourceTree = "<group>"; };
 		9F03432B219C57E300603993 /* SoloFinanzas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoloFinanzas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F03432E219C57E300603993 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F034333219C57E300603993 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -82,6 +85,7 @@
 		BA2AD84523A47C7F00AC2464 /* day_of_the_dead_skull.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = day_of_the_dead_skull.json; sourceTree = "<group>"; };
 		BA2AD84623A47C7F00AC2464 /* LottieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LottieViewController.swift; sourceTree = "<group>"; };
 		BA2AD84723A47C7F00AC2464 /* Lottie.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Lottie.storyboard; sourceTree = "<group>"; };
+		EE874C86C8C62AAD43290DB0 /* Pods-SoloFinanzas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoloFinanzas.debug.xcconfig"; path = "Target Support Files/Pods-SoloFinanzas/Pods-SoloFinanzas.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA2AD83723A47A0400AC2464 /* Lottie.framework in Frameworks */,
+				F11DDCC88FDD69E62A1295C4 /* Pods_SoloFinanzas.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +109,7 @@
 				9F03432D219C57E300603993 /* SoloFinanzas */,
 				9F03432C219C57E300603993 /* Products */,
 				9F449FDC219C5E830050784B /* Frameworks */,
+				ABA44B844D97E01EA8C8D196 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,6 +137,7 @@
 			children = (
 				BA2AD83623A47A0400AC2464 /* Lottie.framework */,
 				9F449FDD219C5E830050784B /* MapKit.framework */,
+				40CE0DB805961C77AD294D7D /* Pods_SoloFinanzas.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -283,6 +290,16 @@
 			path = Colors;
 			sourceTree = "<group>";
 		};
+		ABA44B844D97E01EA8C8D196 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE874C86C8C62AAD43290DB0 /* Pods-SoloFinanzas.debug.xcconfig */,
+				79F1215383B1F1DD20214010 /* Pods-SoloFinanzas.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		BA2AD84423A47C7F00AC2464 /* Animation */ = {
 			isa = PBXGroup;
 			children = (
@@ -300,6 +317,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F03433D219C57E400603993 /* Build configuration list for PBXNativeTarget "SoloFinanzas" */;
 			buildPhases = (
+				5D8F9EB0BAFA04359577AEBC /* [CP] Check Pods Manifest.lock */,
 				9F034327219C57E300603993 /* Sources */,
 				9F034328219C57E300603993 /* Frameworks */,
 				9F034329219C57E300603993 /* Resources */,
@@ -376,6 +394,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		5D8F9EB0BAFA04359577AEBC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SoloFinanzas-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		BA2AD83A23A47A0E00AC2464 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -561,6 +601,7 @@
 		};
 		9F03433E219C57E400603993 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE874C86C8C62AAD43290DB0 /* Pods-SoloFinanzas.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -585,6 +626,7 @@
 		};
 		9F03433F219C57E400603993 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79F1215383B1F1DD20214010 /* Pods-SoloFinanzas.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
