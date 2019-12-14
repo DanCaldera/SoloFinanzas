@@ -323,6 +323,8 @@
 				9F034329219C57E300603993 /* Resources */,
 				BA2AD83923A47A0400AC2464 /* Embed Frameworks */,
 				BA2AD83A23A47A0E00AC2464 /* ShellScript */,
+				8C5EAEE4F46C1B64F3FECA4A /* [CP] Embed Pods Frameworks */,
+				921B2087D76DC18B6DCC39A6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -414,6 +416,40 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C5EAEE4F46C1B64F3FECA4A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SoloFinanzas/Pods-SoloFinanzas-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SoloFinanzas/Pods-SoloFinanzas-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SoloFinanzas/Pods-SoloFinanzas-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		921B2087D76DC18B6DCC39A6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SoloFinanzas/Pods-SoloFinanzas-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SoloFinanzas/Pods-SoloFinanzas-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SoloFinanzas/Pods-SoloFinanzas-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BA2AD83A23A47A0E00AC2464 /* ShellScript */ = {

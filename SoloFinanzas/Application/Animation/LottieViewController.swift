@@ -1,9 +1,9 @@
 //
-//  LottieViewController.swift
-//  PlatziFinanzas
+//  AppDelegate.swift
+//  SoloFinanzas
 //
-//  Created by Andres Silva on 11/15/18.
-//  Copyright © 2018 Platzi. All rights reserved.
+//  Created by Daniel Caldera on 12/12/19.
+//  Copyright © 2019 Calere. All rights reserved.
 //
 
 import UIKit
