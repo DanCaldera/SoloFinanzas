@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -34,6 +34,7 @@
 		BA2AD84823A47C7F00AC2464 /* day_of_the_dead_skull.json in Resources */ = {isa = PBXBuildFile; fileRef = BA2AD84523A47C7F00AC2464 /* day_of_the_dead_skull.json */; };
 		BA2AD84923A47C7F00AC2464 /* LottieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2AD84623A47C7F00AC2464 /* LottieViewController.swift */; };
 		BA2AD84A23A47C7F00AC2464 /* Lottie.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA2AD84723A47C7F00AC2464 /* Lottie.storyboard */; };
+		BAF8390623A486D500CE0107 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = BAF8390523A486D500CE0107 /* Cartfile */; };
 		F11DDCC88FDD69E62A1295C4 /* Pods_SoloFinanzas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CE0DB805961C77AD294D7D /* Pods_SoloFinanzas.framework */; };
 /* End PBXBuildFile section */
 
@@ -85,6 +86,7 @@
 		BA2AD84523A47C7F00AC2464 /* day_of_the_dead_skull.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = day_of_the_dead_skull.json; sourceTree = "<group>"; };
 		BA2AD84623A47C7F00AC2464 /* LottieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LottieViewController.swift; sourceTree = "<group>"; };
 		BA2AD84723A47C7F00AC2464 /* Lottie.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Lottie.storyboard; sourceTree = "<group>"; };
+		BAF8390523A486D500CE0107 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 		EE874C86C8C62AAD43290DB0 /* Pods-SoloFinanzas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoloFinanzas.debug.xcconfig"; path = "Target Support Files/Pods-SoloFinanzas/Pods-SoloFinanzas.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,6 +106,7 @@
 		9F034322219C57E300603993 = {
 			isa = PBXGroup;
 			children = (
+				BAF8390523A486D500CE0107 /* Cartfile */,
 				BA03A36F23A301570026E781 /* Default-568h@2x.png */,
 				9F449FDB219C5E740050784B /* Production.entitlements */,
 				9F03432D219C57E300603993 /* SoloFinanzas */,
@@ -296,7 +299,6 @@
 				EE874C86C8C62AAD43290DB0 /* Pods-SoloFinanzas.debug.xcconfig */,
 				79F1215383B1F1DD20214010 /* Pods-SoloFinanzas.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -375,6 +377,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FDFDF07219C6D6500CD505D /* Profile.storyboard in Resources */,
+				BAF8390623A486D500CE0107 /* Cartfile in Resources */,
 				9FE368C7219CCB3100606E29 /* EmptyState.xib in Resources */,
 				9FF2782A219C7E830083760B /* Colors.xcassets in Resources */,
 				BA2AD84823A47C7F00AC2464 /* day_of_the_dead_skull.json in Resources */,

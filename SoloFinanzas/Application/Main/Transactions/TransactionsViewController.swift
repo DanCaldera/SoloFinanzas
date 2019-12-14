@@ -7,7 +7,6 @@
 //
 
 import UIKit
-// import Lottie
 
 class TransactionsViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
@@ -35,7 +34,7 @@ extension TransactionsViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         let count = 5
         tableView.backgroundView = count == 0 ? emptyStateView : nil
-        tableView.separatorStyle = count == 0 ? .none : .singleLine
+        // tableView.separatorStyle = count == 0 ? .none : .singleLine
         return count
     }
     
