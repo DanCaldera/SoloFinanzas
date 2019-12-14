@@ -1,19 +1,23 @@
 //
 //  LottieViewController.swift
-//  SoloFinanzas
+//  PlatziFinanzas
 //
-//  Created by Daniel Caldera on 13/12/19.
-//  Copyright © 2019 Platzi. All rights reserved.
+//  Created by Andres Silva on 11/15/18.
+//  Copyright © 2018 Platzi. All rights reserved.
 //
 
 import UIKit
+import Lottie
 
 class LottieViewController: UIViewController {
+    @IBOutlet weak var aniamtionView: LOTAnimationView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        aniamtionView.setAnimation(named: "day_of_the_dead_skull")
+        aniamtionView.loopAnimation = true
+        aniamtionView.play()
     }
     
 

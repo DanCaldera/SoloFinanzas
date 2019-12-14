@@ -7,6 +7,7 @@
 //
 
 import UIKit
+// import Lottie
 
 class TransactionsViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!

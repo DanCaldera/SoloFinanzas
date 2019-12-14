@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -29,8 +29,6 @@
 		9FE368CF219DADCA00606E29 /* BudgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE368CE219DADCA00606E29 /* BudgetViewController.swift */; };
 		9FF2782A219C7E830083760B /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FF27829219C7E830083760B /* Colors.xcassets */; };
 		BA03A37123A3015C0026E781 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA03A36F23A301570026E781 /* Default-568h@2x.png */; };
-		BA45FAAB23A44B2E00F47C71 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = BA45FAAA23A44B2E00F47C71 /* Cartfile */; };
-		CE404FC0AC047C4BD160969E /* Pods_SoloFinanzas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC27ED8AF354506CA0EF87D8 /* Pods_SoloFinanzas.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,11 +58,7 @@
 		9FE368CC219DAD5E00606E29 /* TransactionsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransactionsCell.xib; sourceTree = "<group>"; };
 		9FE368CE219DADCA00606E29 /* BudgetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetViewController.swift; sourceTree = "<group>"; };
 		9FF27829219C7E830083760B /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
-		AD2F6171D59C07F771FD5A5E /* Pods-SoloFinanzas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoloFinanzas.debug.xcconfig"; path = "Target Support Files/Pods-SoloFinanzas/Pods-SoloFinanzas.debug.xcconfig"; sourceTree = "<group>"; };
 		BA03A36F23A301570026E781 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		BA45FAAA23A44B2E00F47C71 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
-		BC27ED8AF354506CA0EF87D8 /* Pods_SoloFinanzas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SoloFinanzas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F05ED676D348E9169253A3C6 /* Pods-SoloFinanzas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoloFinanzas.release.xcconfig"; path = "Target Support Files/Pods-SoloFinanzas/Pods-SoloFinanzas.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,32 +66,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE404FC0AC047C4BD160969E /* Pods_SoloFinanzas.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		97E28FE04C32278A6616391F /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				AD2F6171D59C07F771FD5A5E /* Pods-SoloFinanzas.debug.xcconfig */,
-				F05ED676D348E9169253A3C6 /* Pods-SoloFinanzas.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		9F034322219C57E300603993 = {
 			isa = PBXGroup;
 			children = (
-				BA45FAAA23A44B2E00F47C71 /* Cartfile */,
 				BA03A36F23A301570026E781 /* Default-568h@2x.png */,
 				9F449FDB219C5E740050784B /* Production.entitlements */,
 				9F03432D219C57E300603993 /* SoloFinanzas */,
 				9F03432C219C57E300603993 /* Products */,
 				9F449FDC219C5E830050784B /* Frameworks */,
-				97E28FE04C32278A6616391F /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,7 +106,6 @@
 			isa = PBXGroup;
 			children = (
 				9F449FDD219C5E830050784B /* MapKit.framework */,
-				BC27ED8AF354506CA0EF87D8 /* Pods_SoloFinanzas.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -283,12 +264,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F03433D219C57E400603993 /* Build configuration list for PBXNativeTarget "SoloFinanzas" */;
 			buildPhases = (
-				B81BDF47A2FA5181C21DB924 /* [CP] Check Pods Manifest.lock */,
 				9F034327219C57E300603993 /* Sources */,
 				9F034328219C57E300603993 /* Frameworks */,
 				9F034329219C57E300603993 /* Resources */,
-				3C65FB7CF91BE270EE416CA9 /* [CP] Embed Pods Frameworks */,
-				29F448D428AF6AF285789CFE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -338,7 +316,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA45FAAB23A44B2E00F47C71 /* Cartfile in Resources */,
 				9FDFDF07219C6D6500CD505D /* Profile.storyboard in Resources */,
 				9FE368C7219CCB3100606E29 /* EmptyState.xib in Resources */,
 				9FF2782A219C7E830083760B /* Colors.xcassets in Resources */,
@@ -357,65 +334,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		29F448D428AF6AF285789CFE /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SoloFinanzas/Pods-SoloFinanzas-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SoloFinanzas/Pods-SoloFinanzas-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SoloFinanzas/Pods-SoloFinanzas-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3C65FB7CF91BE270EE416CA9 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SoloFinanzas/Pods-SoloFinanzas-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SoloFinanzas/Pods-SoloFinanzas-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SoloFinanzas/Pods-SoloFinanzas-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B81BDF47A2FA5181C21DB924 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SoloFinanzas-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9F034327219C57E300603993 /* Sources */ = {
@@ -581,11 +499,14 @@
 		};
 		9F03433E219C57E400603993 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AD2F6171D59C07F771FD5A5E /* Pods-SoloFinanzas.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JSFPD9RQT4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/SoloFinanzas/Base/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -601,11 +522,14 @@
 		};
 		9F03433F219C57E400603993 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F05ED676D348E9169253A3C6 /* Pods-SoloFinanzas.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JSFPD9RQT4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/SoloFinanzas/Base/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
