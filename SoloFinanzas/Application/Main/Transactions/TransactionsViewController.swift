@@ -32,9 +32,9 @@ extension TransactionsViewController: UITableViewDelegate {
 
 extension TransactionsViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        let count = 5
+        let count = 0
         tableView.backgroundView = count == 0 ? emptyStateView : nil
-        // tableView.separatorStyle = count == 0 ? .none : .singleLine
+        tableView.separatorStyle = count == 0 ? .none : .singleLine
         return count
     }
     
