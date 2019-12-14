@@ -20,7 +20,7 @@ class TabBarViewController: UITabBarController {
         let menuButton = UIButton(frame: CGRect(x: 0, y: 0, width: 32, height: 32))
         
         var menuButtonFrame = menuButton.frame
-        menuButtonFrame.origin.y = tabBar.frame.origin.y - 20
+        menuButtonFrame.origin.y = tabBar.frame.origin.y - 50
         menuButtonFrame.origin.x = view.bounds.width / 2 - menuButtonFrame.size.width / 2
         menuButton.frame = menuButtonFrame
         menuButton.setImage(UIImage(named: "PlusButton"), for: .normal)

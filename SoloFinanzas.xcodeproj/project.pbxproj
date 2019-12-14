@@ -38,8 +38,26 @@
 		BAF8390823A49A7C00CE0107 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BAF8390723A49A7C00CE0107 /* GoogleService-Info.plist */; };
 		BAF8390A23A49D4B00CE0107 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF8390923A49D4B00CE0107 /* SignInViewController.swift */; };
 		BAF8390C23A4AC7400CE0107 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF8390B23A4AC7400CE0107 /* SignInViewModel.swift */; };
+		BAF8391A23A4D99800CE0107 /* TransactionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF8391923A4D99800CE0107 /* TransactionsViewModel.swift */; };
+		BAF8393123A4DDC700CE0107 /* SoloFinanzasCore.h in Headers */ = {isa = PBXBuildFile; fileRef = BAF8392F23A4DDC700CE0107 /* SoloFinanzasCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAF8393423A4DDC700CE0107 /* SoloFinanzasCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAF8392D23A4DDC700CE0107 /* SoloFinanzasCore.framework */; };
+		BAF8393523A4DDC700CE0107 /* SoloFinanzasCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BAF8392D23A4DDC700CE0107 /* SoloFinanzasCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BAF8393D23A4DDEC00CE0107 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF8393923A4DDEC00CE0107 /* Account.swift */; };
+		BAF8393E23A4DDEC00CE0107 /* Budget.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF8393A23A4DDEC00CE0107 /* Budget.swift */; };
+		BAF8393F23A4DDEC00CE0107 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF8393B23A4DDEC00CE0107 /* Transaction.swift */; };
+		BAF8394023A4DDEC00CE0107 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF8393C23A4DDEC00CE0107 /* User.swift */; };
 		F11DDCC88FDD69E62A1295C4 /* Pods_SoloFinanzas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CE0DB805961C77AD294D7D /* Pods_SoloFinanzas.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BAF8393223A4DDC700CE0107 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F034323219C57E300603993 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAF8392C23A4DDC700CE0107;
+			remoteInfo = SoloFinanzasCore;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		BA2AD83923A47A0400AC2464 /* Embed Frameworks */ = {
@@ -48,6 +66,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				BAF8393523A4DDC700CE0107 /* SoloFinanzasCore.framework in Embed Frameworks */,
 				BA2AD83823A47A0400AC2464 /* Lottie.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -93,6 +112,14 @@
 		BAF8390723A49A7C00CE0107 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BAF8390923A49D4B00CE0107 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		BAF8390B23A4AC7400CE0107 /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
+		BAF8391923A4D99800CE0107 /* TransactionsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionsViewModel.swift; sourceTree = "<group>"; };
+		BAF8392D23A4DDC700CE0107 /* SoloFinanzasCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SoloFinanzasCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAF8392F23A4DDC700CE0107 /* SoloFinanzasCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoloFinanzasCore.h; sourceTree = "<group>"; };
+		BAF8393023A4DDC700CE0107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAF8393923A4DDEC00CE0107 /* Account.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		BAF8393A23A4DDEC00CE0107 /* Budget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Budget.swift; sourceTree = "<group>"; };
+		BAF8393B23A4DDEC00CE0107 /* Transaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		BAF8393C23A4DDEC00CE0107 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		EE874C86C8C62AAD43290DB0 /* Pods-SoloFinanzas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoloFinanzas.debug.xcconfig"; path = "Target Support Files/Pods-SoloFinanzas/Pods-SoloFinanzas.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,6 +130,14 @@
 			files = (
 				BA2AD83723A47A0400AC2464 /* Lottie.framework in Frameworks */,
 				F11DDCC88FDD69E62A1295C4 /* Pods_SoloFinanzas.framework in Frameworks */,
+				BAF8393423A4DDC700CE0107 /* SoloFinanzasCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAF8392A23A4DDC700CE0107 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,6 +151,7 @@
 				BA03A36F23A301570026E781 /* Default-568h@2x.png */,
 				9F449FDB219C5E740050784B /* Production.entitlements */,
 				9F03432D219C57E300603993 /* SoloFinanzas */,
+				BAF8392E23A4DDC700CE0107 /* SoloFinanzasCore */,
 				9F03432C219C57E300603993 /* Products */,
 				9F449FDC219C5E830050784B /* Frameworks */,
 				ABA44B844D97E01EA8C8D196 /* Pods */,
@@ -126,6 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				9F03432B219C57E300603993 /* SoloFinanzas.app */,
+				BAF8392D23A4DDC700CE0107 /* SoloFinanzasCore.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -236,6 +273,7 @@
 		9F449FE8219C609A0050784B /* Transactions */ = {
 			isa = PBXGroup;
 			children = (
+				BAF8391923A4D99800CE0107 /* TransactionsViewModel.swift */,
 				9FDFDF04219C6CD500CD505D /* Transactions.storyboard */,
 				9F62FD2F219CC47100A83344 /* TransactionsViewController.swift */,
 				9FE368C6219CCB3100606E29 /* EmptyState.xib */,
@@ -321,7 +359,31 @@
 			path = Animation;
 			sourceTree = "<group>";
 		};
+		BAF8392E23A4DDC700CE0107 /* SoloFinanzasCore */ = {
+			isa = PBXGroup;
+			children = (
+				BAF8393923A4DDEC00CE0107 /* Account.swift */,
+				BAF8393A23A4DDEC00CE0107 /* Budget.swift */,
+				BAF8393B23A4DDEC00CE0107 /* Transaction.swift */,
+				BAF8393C23A4DDEC00CE0107 /* User.swift */,
+				BAF8392F23A4DDC700CE0107 /* SoloFinanzasCore.h */,
+				BAF8393023A4DDC700CE0107 /* Info.plist */,
+			);
+			path = SoloFinanzasCore;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BAF8392823A4DDC700CE0107 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAF8393123A4DDC700CE0107 /* SoloFinanzasCore.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		9F03432A219C57E300603993 /* SoloFinanzas */ = {
@@ -340,11 +402,30 @@
 			buildRules = (
 			);
 			dependencies = (
+				BAF8393323A4DDC700CE0107 /* PBXTargetDependency */,
 			);
 			name = SoloFinanzas;
 			productName = PlatziFinanzas;
 			productReference = 9F03432B219C57E300603993 /* SoloFinanzas.app */;
 			productType = "com.apple.product-type.application";
+		};
+		BAF8392C23A4DDC700CE0107 /* SoloFinanzasCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAF8393623A4DDC700CE0107 /* Build configuration list for PBXNativeTarget "SoloFinanzasCore" */;
+			buildPhases = (
+				BAF8392823A4DDC700CE0107 /* Headers */,
+				BAF8392923A4DDC700CE0107 /* Sources */,
+				BAF8392A23A4DDC700CE0107 /* Frameworks */,
+				BAF8392B23A4DDC700CE0107 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoloFinanzasCore;
+			productName = SoloFinanzasCore;
+			productReference = BAF8392D23A4DDC700CE0107 /* SoloFinanzasCore.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -358,6 +439,10 @@
 				TargetAttributes = {
 					9F03432A219C57E300603993 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1110;
+					};
+					BAF8392C23A4DDC700CE0107 = {
+						CreatedOnToolsVersion = 11.1;
 						LastSwiftMigration = 1110;
 					};
 				};
@@ -376,6 +461,7 @@
 			projectRoot = "";
 			targets = (
 				9F03432A219C57E300603993 /* SoloFinanzas */,
+				BAF8392C23A4DDC700CE0107 /* SoloFinanzasCore */,
 			);
 		};
 /* End PBXProject section */
@@ -403,6 +489,13 @@
 				9FDFDF0B219C6D9E00CD505D /* Statistics.storyboard in Resources */,
 				9FDFDF05219C6CD500CD505D /* Transactions.storyboard in Resources */,
 				9F62FD28219CAEE500A83344 /* OnBoarding.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAF8392B23A4DDC700CE0107 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,13 +591,33 @@
 				9FE368CB219DAA7400606E29 /* TabBarViewController.swift in Sources */,
 				9F62FD2A219CB19D00A83344 /* OnBoardingContainerViewController.swift in Sources */,
 				9F62FD2C219CB23100A83344 /* OnBoardingViewController.swift in Sources */,
+				BAF8391A23A4D99800CE0107 /* TransactionsViewModel.swift in Sources */,
 				BAF8390C23A4AC7400CE0107 /* SignInViewModel.swift in Sources */,
 				BAF8390A23A49D4B00CE0107 /* SignInViewController.swift in Sources */,
 				9FE368CF219DADCA00606E29 /* BudgetViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BAF8392923A4DDC700CE0107 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAF8394023A4DDEC00CE0107 /* User.swift in Sources */,
+				BAF8393E23A4DDEC00CE0107 /* Budget.swift in Sources */,
+				BAF8393D23A4DDEC00CE0107 /* Account.swift in Sources */,
+				BAF8393F23A4DDEC00CE0107 /* Transaction.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BAF8393323A4DDC700CE0107 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAF8392C23A4DDC700CE0107 /* SoloFinanzasCore */;
+			targetProxy = BAF8393223A4DDC700CE0107 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		9F034332219C57E300603993 /* Main.storyboard */ = {
@@ -654,6 +767,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EE874C86C8C62AAD43290DB0 /* Pods-SoloFinanzas.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "";
@@ -679,6 +793,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 79F1215383B1F1DD20214010 /* Pods-SoloFinanzas.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "";
@@ -700,6 +815,65 @@
 			};
 			name = Release;
 		};
+		BAF8393723A4DDC700CE0107 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = JSFPD9RQT4;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SoloFinanzasCore/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = calere.SoloFinanzasCore;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BAF8393823A4DDC700CE0107 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = JSFPD9RQT4;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SoloFinanzasCore/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = calere.SoloFinanzasCore;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -717,6 +891,15 @@
 			buildConfigurations = (
 				9F03433E219C57E400603993 /* Debug */,
 				9F03433F219C57E400603993 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAF8393623A4DDC700CE0107 /* Build configuration list for PBXNativeTarget "SoloFinanzasCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAF8393723A4DDC700CE0107 /* Debug */,
+				BAF8393823A4DDC700CE0107 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
