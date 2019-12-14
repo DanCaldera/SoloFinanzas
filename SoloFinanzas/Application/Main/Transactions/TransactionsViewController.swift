@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Lottie
 
 class TransactionsViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
@@ -17,12 +18,22 @@ class TransactionsViewController: UIViewController {
         }
         return view
     }()
+    
+    private var viewModel = TransactionsViewModel()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        viewModel.delegate = self
+        
         let cell = UINib(nibName: "TransactionsCell", bundle: Bundle.main)
         tableView.register(cell, forCellReuseIdentifier: "cell")
+    }
+}
+
+extension TransactionsViewController: TransactionsViewModelDelegate {
+    func reloadData() {
+        tableView.reloadData()
     }
 }
 
@@ -32,7 +43,7 @@ extension TransactionsViewController: UITableViewDelegate {
 
 extension TransactionsViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        let count = 0
+        let count = viewModel.numberOfitems
         tableView.backgroundView = count == 0 ? emptyStateView : nil
         tableView.separatorStyle = count == 0 ? .none : .singleLine
         return count

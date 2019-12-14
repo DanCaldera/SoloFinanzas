@@ -10,6 +10,10 @@ import Foundation
 import FirebaseFirestore
 import SoloFinanzasCore
 
+protocol TransactionsViewModelDelegate {
+    func reloadData()
+}
+
 class TransactionsViewModel {
     private var items: [SoloFinanzasCore.Transaction] = []
     
@@ -26,12 +30,16 @@ class TransactionsViewModel {
         return items.count
     }
     
+    var delegate: TransactionsViewModelDelegate?
+    
     init() {
-        db.collection("transactions").getDocuments { (snapshot, error) in
+        db.collection("transactions").getDocuments { [weak self] (snapshot, error) in
             if let error = error {
                 print(error.localizedDescription)
                 return
             }
+            
+            guard let self = self else { return }
             
             self.items.removeAll()
             
@@ -45,6 +53,8 @@ class TransactionsViewModel {
                 
                 self.items.append(transaction)
             })
+            
+            self.delegate?.reloadData()
         }
     }
 }

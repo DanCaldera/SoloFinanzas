@@ -85,7 +85,6 @@
 		9F034335219C57E400603993 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F034338219C57E400603993 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F03433A219C57E400603993 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9F449FDA219C5E2D0050784B /* Production.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Production.plist; path = /Users/andresilvagomez/Desktop/PlatziFinanzas/Production.plist; sourceTree = "<absolute>"; };
 		9F449FDB219C5E740050784B /* Production.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Production.entitlements; sourceTree = "<group>"; };
 		9F449FDD219C5E830050784B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		9F62FD23219C914700A83344 /* Shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadow.swift; sourceTree = "<group>"; };
@@ -208,7 +207,6 @@
 				BAF8390723A49A7C00CE0107 /* GoogleService-Info.plist */,
 				9F03432E219C57E300603993 /* AppDelegate.swift */,
 				9F03433A219C57E400603993 /* Info.plist */,
-				9F449FDA219C5E2D0050784B /* Production.plist */,
 				9F034337219C57E400603993 /* LaunchScreen.storyboard */,
 			);
 			path = Base;
