@@ -9,6 +9,7 @@
 import Foundation
 import FirebaseFirestore
 import SoloFinanzasCore
+import FirebaseAuth
 
 protocol TransactionsViewModelDelegate {
     func reloadData()
@@ -33,7 +34,19 @@ class TransactionsViewModel {
     var delegate: TransactionsViewModelDelegate?
     
     init() {
-        db.collection("transactions").order(by: "date", descending: true).addSnapshotListener { [weak self] (snapshot, error) in
+        getData()
+        NotificationCenter.default.addObserver(self, selector: #selector(getData), name: Notification.Name("AddedNewData"), object: nil)
+    }
+    
+    @objc private func getData() {
+        guard let uid = Auth.auth().currentUser?.uid else {
+            return
+        }
+        
+        db.collection("transactions")
+            .whereField("ownerId", isEqualTo: uid)
+            .order(by: "date", descending: true)
+            .addSnapshotListener { [weak self] (snapshot, error) in
             if let error = error {
                 print(error.localizedDescription)
                 return
@@ -58,8 +71,15 @@ class TransactionsViewModel {
             self.delegate?.reloadData()
         }
     }
+    
     func item(at indexPath: IndexPath) -> TransactionViewModel {
         return TransactionViewModel(transaction: items[indexPath.row])
+    }
+    
+    func remove(at indexPath: IndexPath) {
+        let item = items.remove(at: indexPath.row)
+        guard let firebaseId = item.firebaseId else { return }
+        db.collection("transactions").document(firebaseId).delete()
     }
 }
 
