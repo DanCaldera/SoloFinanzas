@@ -12,6 +12,9 @@ import FirebaseAuth
 class SignInViewController: UIViewController {
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
+    @IBAction func screenClick(_ sender: UITapGestureRecognizer) {
+        self.view.endEditing(true)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()

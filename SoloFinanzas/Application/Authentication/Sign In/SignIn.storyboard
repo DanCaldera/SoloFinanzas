@@ -192,6 +192,7 @@
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="OZC-hc-cuL" firstAttribute="centerX" secondItem="i0L-QN-PGA" secondAttribute="centerX" id="3oq-sW-M2x"/>
                             <constraint firstItem="IaT-Z7-5pF" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="bwF-Wi-HcH" secondAttribute="leading" constant="40" id="4L8-tD-Eqs"/>
@@ -209,6 +210,9 @@
                             <constraint firstItem="Cj4-EV-U5j" firstAttribute="leading" secondItem="bwF-Wi-HcH" secondAttribute="leading" id="ydw-f1-C7B"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="bwF-Wi-HcH"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="c3f-5P-9Ea" appends="YES" id="T50-V8-GEf"/>
+                        </connections>
                     </view>
                     <connections>
                         <outlet property="emailTextField" destination="oog-lV-NiC" id="HN0-xn-t1h"/>
@@ -217,6 +221,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0zx-xn-Skb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="c3f-5P-9Ea">
+                    <connections>
+                        <action selector="screenClick:" destination="kMW-HX-DTW" id="My0-S5-9pL"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="92.753623188405811" y="87.053571428571431"/>
         </scene>

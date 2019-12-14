@@ -21,7 +21,6 @@
 		9FDFDF07219C6D6500CD505D /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FDFDF06219C6D6500CD505D /* Profile.storyboard */; };
 		9FDFDF0B219C6D9E00CD505D /* Statistics.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FDFDF0A219C6D9E00CD505D /* Statistics.storyboard */; };
 		9FDFDF0E219C6DB900CD505D /* Budget.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FDFDF0C219C6DB900CD505D /* Budget.storyboard */; };
-		9FDFDF11219C6E1B00CD505D /* Add.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FDFDF10219C6E1B00CD505D /* Add.storyboard */; };
 		9FDFDF13219C6F4A00CD505D /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FDFDF12219C6F4A00CD505D /* SignIn.storyboard */; };
 		9FE368C7219CCB3100606E29 /* EmptyState.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FE368C6219CCB3100606E29 /* EmptyState.xib */; };
 		9FE368CB219DAA7400606E29 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE368CA219DAA7400606E29 /* TabBarViewController.swift */; };
@@ -46,6 +45,9 @@
 		BAF8393E23A4DDEC00CE0107 /* Budget.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF8393A23A4DDEC00CE0107 /* Budget.swift */; };
 		BAF8393F23A4DDEC00CE0107 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF8393B23A4DDEC00CE0107 /* Transaction.swift */; };
 		BAF8394023A4DDEC00CE0107 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF8393C23A4DDEC00CE0107 /* User.swift */; };
+		BAF8395723A4E5E000CE0107 /* AddTransactionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF8395423A4E5DF00CE0107 /* AddTransactionsViewModel.swift */; };
+		BAF8395823A4E5E000CE0107 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF8395523A4E5E000CE0107 /* AddViewController.swift */; };
+		BAF8395A23A4E61B00CE0107 /* Add.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAF8395923A4E61B00CE0107 /* Add.storyboard */; };
 		F11DDCC88FDD69E62A1295C4 /* Pods_SoloFinanzas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CE0DB805961C77AD294D7D /* Pods_SoloFinanzas.framework */; };
 /* End PBXBuildFile section */
 
@@ -96,7 +98,6 @@
 		9FDFDF06219C6D6500CD505D /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 		9FDFDF0A219C6D9E00CD505D /* Statistics.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Statistics.storyboard; sourceTree = "<group>"; };
 		9FDFDF0D219C6DB900CD505D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = PlatziFinanzas/Application/Main/Main/Base.lproj/Budget.storyboard; sourceTree = "<group>"; };
-		9FDFDF10219C6E1B00CD505D /* Add.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Add.storyboard; sourceTree = "<group>"; };
 		9FDFDF12219C6F4A00CD505D /* SignIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
 		9FE368C6219CCB3100606E29 /* EmptyState.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmptyState.xib; sourceTree = "<group>"; };
 		9FE368CA219DAA7400606E29 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
@@ -120,6 +121,9 @@
 		BAF8393A23A4DDEC00CE0107 /* Budget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Budget.swift; sourceTree = "<group>"; };
 		BAF8393B23A4DDEC00CE0107 /* Transaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
 		BAF8393C23A4DDEC00CE0107 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		BAF8395423A4E5DF00CE0107 /* AddTransactionsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTransactionsViewModel.swift; sourceTree = "<group>"; };
+		BAF8395523A4E5E000CE0107 /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		BAF8395923A4E61B00CE0107 /* Add.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Add.storyboard; sourceTree = "<group>"; };
 		EE874C86C8C62AAD43290DB0 /* Pods-SoloFinanzas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoloFinanzas.debug.xcconfig"; path = "Target Support Files/Pods-SoloFinanzas/Pods-SoloFinanzas.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -327,7 +331,9 @@
 		9FDFDF0F219C6DC300CD505D /* Add */ = {
 			isa = PBXGroup;
 			children = (
-				9FDFDF10219C6E1B00CD505D /* Add.storyboard */,
+				BAF8395923A4E61B00CE0107 /* Add.storyboard */,
+				BAF8395423A4E5DF00CE0107 /* AddTransactionsViewModel.swift */,
+				BAF8395523A4E5E000CE0107 /* AddViewController.swift */,
 			);
 			path = Add;
 			sourceTree = "<group>";
@@ -475,11 +481,11 @@
 				BAF8390623A486D500CE0107 /* Cartfile in Resources */,
 				9FE368C7219CCB3100606E29 /* EmptyState.xib in Resources */,
 				9FF2782A219C7E830083760B /* Colors.xcassets in Resources */,
+				BAF8395A23A4E61B00CE0107 /* Add.storyboard in Resources */,
 				BA2AD84823A47C7F00AC2464 /* day_of_the_dead_skull.json in Resources */,
 				9F034339219C57E400603993 /* LaunchScreen.storyboard in Resources */,
 				9FDFDF0E219C6DB900CD505D /* Budget.storyboard in Resources */,
 				BA03A37123A3015C0026E781 /* Default-568h@2x.png in Resources */,
-				9FDFDF11219C6E1B00CD505D /* Add.storyboard in Resources */,
 				9F034336219C57E400603993 /* Assets.xcassets in Resources */,
 				BA2AD84A23A47C7F00AC2464 /* Lottie.storyboard in Resources */,
 				BAF8390823A49A7C00CE0107 /* GoogleService-Info.plist in Resources */,
@@ -585,8 +591,10 @@
 			files = (
 				9F62FD30219CC47100A83344 /* TransactionsViewController.swift in Sources */,
 				9F62FD24219C914700A83344 /* Shadow.swift in Sources */,
+				BAF8395823A4E5E000CE0107 /* AddViewController.swift in Sources */,
 				9F62FD2E219CB4FA00A83344 /* OnBoardingStepsViewController.swift in Sources */,
 				9F03432F219C57E300603993 /* AppDelegate.swift in Sources */,
+				BAF8395723A4E5E000CE0107 /* AddTransactionsViewModel.swift in Sources */,
 				BA2AD84923A47C7F00AC2464 /* LottieViewController.swift in Sources */,
 				9FE368CB219DAA7400606E29 /* TabBarViewController.swift in Sources */,
 				9F62FD2A219CB19D00A83344 /* OnBoardingContainerViewController.swift in Sources */,
