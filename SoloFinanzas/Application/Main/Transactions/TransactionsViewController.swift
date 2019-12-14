@@ -50,6 +50,12 @@ extension TransactionsViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        return tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as? TransactionTableViewCell else {
+            return UITableViewCell()
+        }
+        
+        cell.viewModel = viewModel.item(at: indexPath)
+        return cell
     }
 }
+

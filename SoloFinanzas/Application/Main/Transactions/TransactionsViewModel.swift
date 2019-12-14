@@ -57,4 +57,37 @@ class TransactionsViewModel {
             self.delegate?.reloadData()
         }
     }
+    func item(at indexPath: IndexPath) -> TransactionViewModel {
+        return TransactionViewModel(transaction: items[indexPath.row])
+    }
+}
+
+class TransactionViewModel {
+    private var transaction: SoloFinanzasCore.Transaction
+    
+    var name: String {
+        return transaction.name
+    }
+    
+    var value: String {
+        return transaction.value.currency()
+    }
+    
+    var date: String {
+        let formatter = DateFormatter()
+        formatter.dateFormat = "dd-MM-yyyy"
+        formatter.timeZone = TimeZone.current
+        return formatter.string(from: transaction.date)
+    }
+
+    var time: String {
+        let formatter = DateFormatter()
+        formatter.dateFormat = "hh:mm"
+        formatter.timeZone = TimeZone.current
+        return formatter.string(from: transaction.date)
+    }
+    
+    init(transaction: SoloFinanzasCore.Transaction) {
+        self.transaction = transaction
+    }
 }

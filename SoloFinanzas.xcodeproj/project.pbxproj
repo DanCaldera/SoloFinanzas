@@ -48,6 +48,8 @@
 		BAF8395723A4E5E000CE0107 /* AddTransactionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF8395423A4E5DF00CE0107 /* AddTransactionsViewModel.swift */; };
 		BAF8395823A4E5E000CE0107 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF8395523A4E5E000CE0107 /* AddViewController.swift */; };
 		BAF8395A23A4E61B00CE0107 /* Add.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAF8395923A4E61B00CE0107 /* Add.storyboard */; };
+		BAF8395C23A4F2B100CE0107 /* TransactionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF8395B23A4F2B100CE0107 /* TransactionTableViewCell.swift */; };
+		BAF8395E23A4F4C000CE0107 /* Numeric.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF8395D23A4F4C000CE0107 /* Numeric.swift */; };
 		F11DDCC88FDD69E62A1295C4 /* Pods_SoloFinanzas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CE0DB805961C77AD294D7D /* Pods_SoloFinanzas.framework */; };
 /* End PBXBuildFile section */
 
@@ -123,6 +125,8 @@
 		BAF8395423A4E5DF00CE0107 /* AddTransactionsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTransactionsViewModel.swift; sourceTree = "<group>"; };
 		BAF8395523A4E5E000CE0107 /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		BAF8395923A4E61B00CE0107 /* Add.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Add.storyboard; sourceTree = "<group>"; };
+		BAF8395B23A4F2B100CE0107 /* TransactionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionTableViewCell.swift; sourceTree = "<group>"; };
+		BAF8395D23A4F4C000CE0107 /* Numeric.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Numeric.swift; sourceTree = "<group>"; };
 		EE874C86C8C62AAD43290DB0 /* Pods-SoloFinanzas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoloFinanzas.debug.xcconfig"; path = "Target Support Files/Pods-SoloFinanzas/Pods-SoloFinanzas.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -280,6 +284,7 @@
 				9F62FD2F219CC47100A83344 /* TransactionsViewController.swift */,
 				9FE368C6219CCB3100606E29 /* EmptyState.xib */,
 				9FE368CC219DAD5E00606E29 /* TransactionsCell.xib */,
+				BAF8395B23A4F2B100CE0107 /* TransactionTableViewCell.swift */,
 			);
 			path = Transactions;
 			sourceTree = "<group>";
@@ -304,6 +309,7 @@
 		9F62FD22219C913100A83344 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				BAF8395D23A4F4C000CE0107 /* Numeric.swift */,
 				9F62FD23219C914700A83344 /* Shadow.swift */,
 			);
 			path = Extensions;
@@ -588,6 +594,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F62FD30219CC47100A83344 /* TransactionsViewController.swift in Sources */,
+				BAF8395C23A4F2B100CE0107 /* TransactionTableViewCell.swift in Sources */,
 				9F62FD24219C914700A83344 /* Shadow.swift in Sources */,
 				BAF8395823A4E5E000CE0107 /* AddViewController.swift in Sources */,
 				9F62FD2E219CB4FA00A83344 /* OnBoardingStepsViewController.swift in Sources */,
@@ -597,6 +604,7 @@
 				9FE368CB219DAA7400606E29 /* TabBarViewController.swift in Sources */,
 				9F62FD2A219CB19D00A83344 /* OnBoardingContainerViewController.swift in Sources */,
 				9F62FD2C219CB23100A83344 /* OnBoardingViewController.swift in Sources */,
+				BAF8395E23A4F4C000CE0107 /* Numeric.swift in Sources */,
 				BAF8391A23A4D99800CE0107 /* TransactionsViewModel.swift in Sources */,
 				BAF8390C23A4AC7400CE0107 /* SignInViewModel.swift in Sources */,
 				BAF8390A23A49D4B00CE0107 /* SignInViewController.swift in Sources */,
