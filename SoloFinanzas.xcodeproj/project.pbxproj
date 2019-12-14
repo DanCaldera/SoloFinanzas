@@ -37,6 +37,7 @@
 		BAF8390623A486D500CE0107 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = BAF8390523A486D500CE0107 /* Cartfile */; };
 		BAF8390823A49A7C00CE0107 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BAF8390723A49A7C00CE0107 /* GoogleService-Info.plist */; };
 		BAF8390A23A49D4B00CE0107 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF8390923A49D4B00CE0107 /* SignInViewController.swift */; };
+		BAF8390C23A4AC7400CE0107 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF8390B23A4AC7400CE0107 /* SignInViewModel.swift */; };
 		F11DDCC88FDD69E62A1295C4 /* Pods_SoloFinanzas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CE0DB805961C77AD294D7D /* Pods_SoloFinanzas.framework */; };
 /* End PBXBuildFile section */
 
@@ -91,6 +92,7 @@
 		BAF8390523A486D500CE0107 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 		BAF8390723A49A7C00CE0107 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BAF8390923A49D4B00CE0107 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		BAF8390B23A4AC7400CE0107 /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
 		EE874C86C8C62AAD43290DB0 /* Pods-SoloFinanzas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoloFinanzas.debug.xcconfig"; path = "Target Support Files/Pods-SoloFinanzas/Pods-SoloFinanzas.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -226,6 +228,7 @@
 			children = (
 				9FDFDF12219C6F4A00CD505D /* SignIn.storyboard */,
 				BAF8390923A49D4B00CE0107 /* SignInViewController.swift */,
+				BAF8390B23A4AC7400CE0107 /* SignInViewModel.swift */,
 			);
 			path = "Sign In";
 			sourceTree = "<group>";
@@ -495,6 +498,7 @@
 				9FE368CB219DAA7400606E29 /* TabBarViewController.swift in Sources */,
 				9F62FD2A219CB19D00A83344 /* OnBoardingContainerViewController.swift in Sources */,
 				9F62FD2C219CB23100A83344 /* OnBoardingViewController.swift in Sources */,
+				BAF8390C23A4AC7400CE0107 /* SignInViewModel.swift in Sources */,
 				BAF8390A23A49D4B00CE0107 /* SignInViewController.swift in Sources */,
 				9FE368CF219DADCA00606E29 /* BudgetViewController.swift in Sources */,
 			);
