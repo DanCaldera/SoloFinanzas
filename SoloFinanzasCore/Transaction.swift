@@ -58,8 +58,12 @@ extension Transaction: Hashable {
         return lhs.uuid == rhs.uuid
     }
     
-    public var hashValue: Int {
+    public func hash(into hasher: inout Hasher) {
+        hasher.combine(uuid.hashValue)
+    }
+    
+    /*public var hashValue: Int {
         print(uuid.hashValue)
         return uuid.hashValue
-    }
+    }*/
 }

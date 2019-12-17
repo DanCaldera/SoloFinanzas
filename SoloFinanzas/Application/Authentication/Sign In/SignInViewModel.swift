@@ -56,6 +56,11 @@ class SignInViewModel {
 
                 handler?(true, nil)
             })
+            /*let credentials = FacebookAuthProvider.credential(withAccessToken: token)
+            Auth.auth().signInAndRetrieveData(with: credentials, completion: { (authResult, error) in
+
+                handler?(true, nil)
+            })*/
         }
     }
 }
