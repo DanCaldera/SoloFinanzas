@@ -52,7 +52,7 @@ class SignInViewModel {
             
             guard let token = AccessToken.current?.tokenString else { return }
             let credentials = FacebookAuthProvider.credential(withAccessToken: token)
-            Auth.auth().signInAndRetrieveData(with: credentials, completion: { (authResult, error) in
+            Auth.auth().signIn(with: credentials, completion: { (authResult, error) in
 
                 handler?(true, nil)
             })
