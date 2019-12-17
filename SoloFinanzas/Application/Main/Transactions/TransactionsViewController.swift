@@ -46,13 +46,25 @@ extension TransactionsViewController: UITableViewDelegate {
     }
     
     
-    func tableView(_ tableView: UITableView, editActionsForRowAt indexPath: IndexPath) -> [UITableViewRowAction]? {
+    /*func tableView(_ tableView: UITableView, editActionsForRowAt indexPath: IndexPath) -> [UITableViewRowAction]? {
         let delete = UITableViewRowAction(style: .destructive, title: "Delete") { [weak self] (action, index) in
+            print("delete")
+            print(action)
+            print(index)
+            print(indexPath)
             self?.viewModel.remove(at: index)
             tableView.deleteRows(at: [index], with: .fade)
         }
         
         return [delete]
+    }*/
+    func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
+        let DeleteAction = UIContextualAction(style: .destructive, title: "Delete", handler: { (action, view, success) in
+            self.viewModel.remove(at: indexPath)
+            tableView.deleteRows(at: [indexPath], with: .fade)
+        })
+      DeleteAction.backgroundColor = .red
+      return UISwipeActionsConfiguration(actions: [DeleteAction])
     }
 }
 
