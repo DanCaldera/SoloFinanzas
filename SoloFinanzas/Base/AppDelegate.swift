@@ -15,10 +15,15 @@ import FBSDKLoginKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    
+    private var notifications: PushNotificationsController!
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         ApplicationDelegate.shared.application(application, didFinishLaunchingWithOptions: launchOptions)
+        
+        let _ = LocalNotificationsController()
+        notifications = PushNotificationsController(application: application)
         
         FirebaseApp.configure()
         
@@ -39,11 +44,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             name = "SignIn"
         }
         
-        //let session = Auth.auth().currentUser != nil
+        let session = Auth.auth().currentUser != nil
         
-        //if session {
-        //    name = "Main"
-        //}
+        if session {
+            name = "Main"
+        }
         
         let viewController = UIStoryboard(name: name, bundle: Bundle.main).instantiateInitialViewController()
         

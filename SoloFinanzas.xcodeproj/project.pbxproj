@@ -33,6 +33,8 @@
 		BA2AD84823A47C7F00AC2464 /* day_of_the_dead_skull.json in Resources */ = {isa = PBXBuildFile; fileRef = BA2AD84523A47C7F00AC2464 /* day_of_the_dead_skull.json */; };
 		BA2AD84923A47C7F00AC2464 /* LottieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2AD84623A47C7F00AC2464 /* LottieViewController.swift */; };
 		BA2AD84A23A47C7F00AC2464 /* Lottie.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA2AD84723A47C7F00AC2464 /* Lottie.storyboard */; };
+		BA39E4C023A5B4CA005BC673 /* LocalNotificationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA39E4BF23A5B4CA005BC673 /* LocalNotificationsController.swift */; };
+		BA39E4C223A5B9FA005BC673 /* PushNotificationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA39E4C123A5B9FA005BC673 /* PushNotificationsController.swift */; };
 		BAF8390623A486D500CE0107 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = BAF8390523A486D500CE0107 /* Cartfile */; };
 		BAF8390823A49A7C00CE0107 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BAF8390723A49A7C00CE0107 /* GoogleService-Info.plist */; };
 		BAF8390A23A49D4B00CE0107 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF8390923A49D4B00CE0107 /* SignInViewController.swift */; };
@@ -110,6 +112,8 @@
 		BA2AD84523A47C7F00AC2464 /* day_of_the_dead_skull.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = day_of_the_dead_skull.json; sourceTree = "<group>"; };
 		BA2AD84623A47C7F00AC2464 /* LottieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LottieViewController.swift; sourceTree = "<group>"; };
 		BA2AD84723A47C7F00AC2464 /* Lottie.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Lottie.storyboard; sourceTree = "<group>"; };
+		BA39E4BF23A5B4CA005BC673 /* LocalNotificationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationsController.swift; sourceTree = "<group>"; };
+		BA39E4C123A5B9FA005BC673 /* PushNotificationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationsController.swift; sourceTree = "<group>"; };
 		BAF8390523A486D500CE0107 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 		BAF8390723A49A7C00CE0107 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BAF8390923A49D4B00CE0107 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
@@ -177,6 +181,7 @@
 		9F03432D219C57E300603993 /* SoloFinanzas */ = {
 			isa = PBXGroup;
 			children = (
+				BA39E4BE23A5B463005BC673 /* Controllers */,
 				9F62FD22219C913100A83344 /* Extensions */,
 				9F449FE2219C60410050784B /* Resources */,
 				9F449FE1219C601C0050784B /* Base */,
@@ -369,6 +374,15 @@
 			path = Animation;
 			sourceTree = "<group>";
 		};
+		BA39E4BE23A5B463005BC673 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BA39E4BF23A5B4CA005BC673 /* LocalNotificationsController.swift */,
+				BA39E4C123A5B9FA005BC673 /* PushNotificationsController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		BAF8392E23A4DDC700CE0107 /* SoloFinanzasCore */ = {
 			isa = PBXGroup;
 			children = (
@@ -408,6 +422,7 @@
 				BA2AD83A23A47A0E00AC2464 /* ShellScript */,
 				8C5EAEE4F46C1B64F3FECA4A /* [CP] Embed Pods Frameworks */,
 				921B2087D76DC18B6DCC39A6 /* [CP] Copy Pods Resources */,
+				BA39E4BD23A5B163005BC673 /* Fabric */,
 			);
 			buildRules = (
 			);
@@ -586,6 +601,25 @@
 			shellPath = /bin/sh;
 			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
 		};
+		BA39E4BD23A5B163005BC673 /* Fabric */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = Fabric;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\"\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -593,6 +627,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA39E4C223A5B9FA005BC673 /* PushNotificationsController.swift in Sources */,
 				9F62FD30219CC47100A83344 /* TransactionsViewController.swift in Sources */,
 				BAF8395C23A4F2B100CE0107 /* TransactionTableViewCell.swift in Sources */,
 				9F62FD24219C914700A83344 /* Shadow.swift in Sources */,
@@ -604,6 +639,7 @@
 				9FE368CB219DAA7400606E29 /* TabBarViewController.swift in Sources */,
 				9F62FD2A219CB19D00A83344 /* OnBoardingContainerViewController.swift in Sources */,
 				9F62FD2C219CB23100A83344 /* OnBoardingViewController.swift in Sources */,
+				BA39E4C023A5B4CA005BC673 /* LocalNotificationsController.swift in Sources */,
 				BAF8395E23A4F4C000CE0107 /* Numeric.swift in Sources */,
 				BAF8391A23A4D99800CE0107 /* TransactionsViewModel.swift in Sources */,
 				BAF8390C23A4AC7400CE0107 /* SignInViewModel.swift in Sources */,

@@ -59,6 +59,7 @@ extension Transaction: Hashable {
     }
     
     public var hashValue: Int {
+        print(uuid.hashValue)
         return uuid.hashValue
     }
 }

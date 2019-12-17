@@ -11,6 +11,7 @@ target 'SoloFinanzas' do
   pod 'Firebase/Messaging'
   pod 'Firebase/Firestore'
   pod 'Firebase/InAppMessagingDisplay'
+  pod 'Firebase/Analytics'
   pod 'FBSDKLoginKit'
   pod 'Crashlytics'
   pod 'Fabric'
