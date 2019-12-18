@@ -217,7 +217,7 @@
                     <connections>
                         <outlet property="emailTextField" destination="oog-lV-NiC" id="HN0-xn-t1h"/>
                         <outlet property="passwordTextField" destination="bP2-vK-jm9" id="Per-6G-jPX"/>
-                        <segue destination="xot-u3-Aob" kind="modal" identifier="goToMain" modalPresentationStyle="currentContext" modalTransitionStyle="crossDissolve" id="kCo-mj-QXO"/>
+                        <segue destination="xot-u3-Aob" kind="show" identifier="goToMain" id="kCo-mj-QXO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0zx-xn-Skb" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -232,7 +232,9 @@
         <!--Main-->
         <scene sceneID="759-MN-KeK">
             <objects>
-                <viewControllerPlaceholder storyboardName="Main" id="xot-u3-Aob" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardName="Main" id="xot-u3-Aob" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="bXD-de-8fp"/>
+                </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WwC-Qb-jib" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="833" y="87"/>

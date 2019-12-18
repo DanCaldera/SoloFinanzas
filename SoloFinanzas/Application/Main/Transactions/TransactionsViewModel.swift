@@ -21,7 +21,7 @@ class TransactionsViewModel {
     private var db: Firestore {
         let db = Firestore.firestore()
         let settings = db.settings
-        settings.areTimestampsInSnapshotsEnabled = true
+        // settings.areTimestampsInSnapshotsEnabled = true
         settings.isPersistenceEnabled = true
         db.settings = settings
         return db
