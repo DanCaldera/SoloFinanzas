@@ -3,8 +3,8 @@
   "iOS" : [
     {
       "name" : "SwiftyStoreKit",
-      "hash" : "ca87ec8eb9531115f0451d01962900d8b451048b0b105c33b5fcaced7b03338a",
-      "swiftToolchainVersion" : "5.1 (swiftlang-1100.0.270.13 clang-1100.0.33.7)"
+      "hash" : "e9471f0ec6a7ab179e4da8ef3779ab8b4db49b029856806fb88d139519aaa80a",
+      "swiftToolchainVersion" : "5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
     }
   ]
 }
