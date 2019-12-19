@@ -15,9 +15,9 @@ class LottieViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        //aniamtionView.setAnimation(named: "day_of_the_dead_skull")
-        //aniamtionView.loopAnimation = true
-        animationView.play()
+        //animationView.setAnimation(named: "day_of_the_dead_skull")
+        //animationView.loopAnimation = true
+        //animationView.play()
     }
     
 
