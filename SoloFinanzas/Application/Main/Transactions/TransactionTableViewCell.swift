@@ -3,7 +3,7 @@
 //  SoloFinanzas
 //
 //  Created by Daniel Caldera on 14/12/19.
-//  Copyright © 2019 Platzi. All rights reserved.
+//  Copyright © 2019 Calere. All rights reserved.
 //
 
 import UIKit
