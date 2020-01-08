@@ -2,4 +2,5 @@ Carthage
 Pods
 .vscode
 GoogleService-Info.plist
-Info.plist
+SoloFinanzas/Base/Info.plist
+SoloFinanzas/Base/GoogleService-Info.plist

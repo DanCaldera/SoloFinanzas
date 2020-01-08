@@ -21,7 +21,8 @@ class SignInViewModel {
         }
         
         guard let password = password,
-            validate(text: password, regex: "^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[#$^+=!*()@%&]).{8,}$") else {
+            validate(text: password, regex:
+                "((?=.*\\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%]).{6,20})") else {
                 return
         }
         
