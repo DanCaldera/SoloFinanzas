@@ -23,7 +23,7 @@ class LocalNotificationsController {
         
         let content = UNMutableNotificationContent()
         content.title = "¿Hiciste alguna compra el dia de hoy?"
-        content.body = "Recuerda aggregar los gastos del dia de hoy"
+        content.body = "Recuerda agregar los gastos del dia de hoy"
         content.sound = UNNotificationSound.default
         
         //let trigger = UNTimeIntervalNotificationTrigger(

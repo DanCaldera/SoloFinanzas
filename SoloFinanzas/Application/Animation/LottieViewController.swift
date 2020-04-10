@@ -7,10 +7,9 @@
 //
 
 import UIKit
-import Lottie
 
 class LottieViewController: UIViewController {
-    @IBOutlet weak var animationView: AnimationView!
+//    @IBOutlet weak var animationView: AnimationView!
 
     override func viewDidLoad() {
         super.viewDidLoad()

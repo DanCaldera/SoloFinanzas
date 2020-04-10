@@ -15,5 +15,6 @@ target 'SoloFinanzas' do
   pod 'FBSDKLoginKit'
   pod 'Crashlytics'
   pod 'Fabric'
+  # pod 'lottie-ios'
   
 end

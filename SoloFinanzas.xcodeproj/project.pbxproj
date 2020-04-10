@@ -28,14 +28,11 @@
 		9FE368CF219DADCA00606E29 /* BudgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE368CE219DADCA00606E29 /* BudgetViewController.swift */; };
 		9FF2782A219C7E830083760B /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FF27829219C7E830083760B /* Colors.xcassets */; };
 		BA03A37123A3015C0026E781 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA03A36F23A301570026E781 /* Default-568h@2x.png */; };
-		BA2AD83723A47A0400AC2464 /* Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA2AD83623A47A0400AC2464 /* Lottie.framework */; };
-		BA2AD83823A47A0400AC2464 /* Lottie.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA2AD83623A47A0400AC2464 /* Lottie.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BA2AD84823A47C7F00AC2464 /* day_of_the_dead_skull.json in Resources */ = {isa = PBXBuildFile; fileRef = BA2AD84523A47C7F00AC2464 /* day_of_the_dead_skull.json */; };
 		BA2AD84923A47C7F00AC2464 /* LottieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2AD84623A47C7F00AC2464 /* LottieViewController.swift */; };
 		BA2AD84A23A47C7F00AC2464 /* Lottie.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA2AD84723A47C7F00AC2464 /* Lottie.storyboard */; };
 		BA39E4C023A5B4CA005BC673 /* LocalNotificationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA39E4BF23A5B4CA005BC673 /* LocalNotificationsController.swift */; };
 		BA39E4C223A5B9FA005BC673 /* PushNotificationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA39E4C123A5B9FA005BC673 /* PushNotificationsController.swift */; };
-		BAF8390623A486D500CE0107 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = BAF8390523A486D500CE0107 /* Cartfile */; };
 		BAF8390823A49A7C00CE0107 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BAF8390723A49A7C00CE0107 /* GoogleService-Info.plist */; };
 		BAF8390A23A49D4B00CE0107 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF8390923A49D4B00CE0107 /* SignInViewController.swift */; };
 		BAF8390C23A4AC7400CE0107 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF8390B23A4AC7400CE0107 /* SignInViewModel.swift */; };
@@ -73,7 +70,6 @@
 			dstSubfolderSpec = 10;
 			files = (
 				BAF8393523A4DDC700CE0107 /* SoloFinanzasCore.framework in Embed Frameworks */,
-				BA2AD83823A47A0400AC2464 /* Lottie.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -114,7 +110,6 @@
 		BA2AD84723A47C7F00AC2464 /* Lottie.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Lottie.storyboard; sourceTree = "<group>"; };
 		BA39E4BF23A5B4CA005BC673 /* LocalNotificationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationsController.swift; sourceTree = "<group>"; };
 		BA39E4C123A5B9FA005BC673 /* PushNotificationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationsController.swift; sourceTree = "<group>"; };
-		BAF8390523A486D500CE0107 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 		BAF8390723A49A7C00CE0107 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BAF8390923A49D4B00CE0107 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		BAF8390B23A4AC7400CE0107 /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
@@ -139,7 +134,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA2AD83723A47A0400AC2464 /* Lottie.framework in Frameworks */,
 				F11DDCC88FDD69E62A1295C4 /* Pods_SoloFinanzas.framework in Frameworks */,
 				BAF8393423A4DDC700CE0107 /* SoloFinanzasCore.framework in Frameworks */,
 			);
@@ -158,7 +152,6 @@
 		9F034322219C57E300603993 = {
 			isa = PBXGroup;
 			children = (
-				BAF8390523A486D500CE0107 /* Cartfile */,
 				BA03A36F23A301570026E781 /* Default-568h@2x.png */,
 				9F449FDB219C5E740050784B /* Production.entitlements */,
 				9F03432D219C57E300603993 /* SoloFinanzas */,
@@ -419,7 +412,6 @@
 				9F034328219C57E300603993 /* Frameworks */,
 				9F034329219C57E300603993 /* Resources */,
 				BA2AD83923A47A0400AC2464 /* Embed Frameworks */,
-				BA2AD83A23A47A0E00AC2464 /* ShellScript */,
 				8C5EAEE4F46C1B64F3FECA4A /* [CP] Embed Pods Frameworks */,
 				921B2087D76DC18B6DCC39A6 /* [CP] Copy Pods Resources */,
 				BA39E4BD23A5B163005BC673 /* Fabric */,
@@ -497,7 +489,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FDFDF07219C6D6500CD505D /* Profile.storyboard in Resources */,
-				BAF8390623A486D500CE0107 /* Cartfile in Resources */,
 				9FE368C7219CCB3100606E29 /* EmptyState.xib in Resources */,
 				9FF2782A219C7E830083760B /* Colors.xcassets in Resources */,
 				BAF8395A23A4E61B00CE0107 /* Add.storyboard in Resources */,
@@ -582,24 +573,6 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SoloFinanzas/Pods-SoloFinanzas-resources.sh\"\n";
 			showEnvVarsInLog = 0;
-		};
-		BA2AD83A23A47A0E00AC2464 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/Lottie.framework",
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
 		};
 		BA39E4BD23A5B163005BC673 /* Fabric */ = {
 			isa = PBXShellScriptBuildPhase;
