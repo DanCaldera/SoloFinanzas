@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		704304EC24414F4000DCC546 /* AddTransactionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704304EB24414F4000DCC546 /* AddTransactionViewModel.swift */; };
+		704304EE24414FB100DCC546 /* AddTransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704304ED24414FB100DCC546 /* AddTransactionViewController.swift */; };
 		9F03432F219C57E300603993 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F03432E219C57E300603993 /* AppDelegate.swift */; };
 		9F034334219C57E300603993 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F034332219C57E300603993 /* Main.storyboard */; };
 		9F034336219C57E400603993 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F034335219C57E400603993 /* Assets.xcassets */; };
@@ -78,6 +80,9 @@
 
 /* Begin PBXFileReference section */
 		40CE0DB805961C77AD294D7D /* Pods_SoloFinanzas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SoloFinanzas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		704304EA2441271E00DCC546 /* SoloFinanzas.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SoloFinanzas.entitlements; sourceTree = "<group>"; };
+		704304EB24414F4000DCC546 /* AddTransactionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransactionViewModel.swift; sourceTree = "<group>"; };
+		704304ED24414FB100DCC546 /* AddTransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransactionViewController.swift; sourceTree = "<group>"; };
 		79F1215383B1F1DD20214010 /* Pods-SoloFinanzas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoloFinanzas.release.xcconfig"; path = "Target Support Files/Pods-SoloFinanzas/Pods-SoloFinanzas.release.xcconfig"; sourceTree = "<group>"; };
 		9F03432B219C57E300603993 /* SoloFinanzas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoloFinanzas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F03432E219C57E300603993 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -174,6 +179,7 @@
 		9F03432D219C57E300603993 /* SoloFinanzas */ = {
 			isa = PBXGroup;
 			children = (
+				704304EA2441271E00DCC546 /* SoloFinanzas.entitlements */,
 				BA39E4BE23A5B463005BC673 /* Controllers */,
 				9F62FD22219C913100A83344 /* Extensions */,
 				9F449FE2219C60410050784B /* Resources */,
@@ -283,6 +289,8 @@
 				9FE368C6219CCB3100606E29 /* EmptyState.xib */,
 				9FE368CC219DAD5E00606E29 /* TransactionsCell.xib */,
 				BAF8395B23A4F2B100CE0107 /* TransactionTableViewCell.swift */,
+				704304EB24414F4000DCC546 /* AddTransactionViewModel.swift */,
+				704304ED24414FB100DCC546 /* AddTransactionViewController.swift */,
 			);
 			path = Transactions;
 			sourceTree = "<group>";
@@ -604,8 +612,10 @@
 				9F62FD30219CC47100A83344 /* TransactionsViewController.swift in Sources */,
 				BAF8395C23A4F2B100CE0107 /* TransactionTableViewCell.swift in Sources */,
 				9F62FD24219C914700A83344 /* Shadow.swift in Sources */,
+				704304EC24414F4000DCC546 /* AddTransactionViewModel.swift in Sources */,
 				BAF8395823A4E5E000CE0107 /* AddViewController.swift in Sources */,
 				9F62FD2E219CB4FA00A83344 /* OnBoardingStepsViewController.swift in Sources */,
+				704304EE24414FB100DCC546 /* AddTransactionViewController.swift in Sources */,
 				9F03432F219C57E300603993 /* AppDelegate.swift in Sources */,
 				BAF8395723A4E5E000CE0107 /* AddTransactionsViewModel.swift in Sources */,
 				BA2AD84923A47C7F00AC2464 /* LottieViewController.swift in Sources */,
@@ -792,13 +802,11 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SoloFinanzas/SoloFinanzas.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = JSFPD9RQT4;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "$(SRCROOT)/SoloFinanzas/Base/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -808,8 +816,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = calere.SoloFinanzas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = YES;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -819,13 +828,11 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SoloFinanzas/SoloFinanzas.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = JSFPD9RQT4;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "$(SRCROOT)/SoloFinanzas/Base/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -835,8 +842,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = calere.SoloFinanzas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = YES;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

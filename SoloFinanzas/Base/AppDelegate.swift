@@ -10,7 +10,6 @@ import UIKit
 import Firebase
 import FBSDKLoginKit
 
-
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -45,7 +44,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
         
         let session = Auth.auth().currentUser != nil
-        
+
         if session {
             name = "Main"
         }

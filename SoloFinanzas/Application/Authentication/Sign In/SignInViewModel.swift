@@ -20,15 +20,11 @@ class SignInViewModel {
                 return
         }
         
-        print(email)
-        
         guard let password = password,
             validate(text: password, regex:
                 "^(?=.*[A-Za-z])(?=.*\\d)[A-Za-z\\d]{8,}$") else {
                 return
         }
-        
-        print(password)
         
         Auth.auth().signIn(withEmail: email, password: password) { (result, error) in
             if let error = error {

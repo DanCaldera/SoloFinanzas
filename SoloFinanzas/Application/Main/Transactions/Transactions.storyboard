@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="1oU-J2-W4x">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="1oU-J2-W4x">
     <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -34,7 +34,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="4YN-i2-Xzt"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Transactions" id="cvS-Hw-xir"/>
+                    <navigationItem key="navigationItem" title="Transactions" id="cvS-Hw-xir">
+                        <barButtonItem key="rightBarButtonItem" image="plus" catalog="system" id="8xz-Ta-Kl1">
+                            <connections>
+                                <segue destination="Tgc-fK-AyI" kind="show" id="Alf-ye-OhP"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="tableView" destination="STG-Ik-DfU" id="A9V-gs-VLh"/>
@@ -44,24 +50,159 @@
             </objects>
             <point key="canvasLocation" x="2218.840579710145" y="-50.892857142857139"/>
         </scene>
+        <!--Add-->
+        <scene sceneID="6Jv-MM-66Y">
+            <objects>
+                <viewController id="Tgc-fK-AyI" customClass="AddTransactionViewController" customModule="SoloFinanzas" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6rK-PF-Nm1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D3Z-q2-OIJ">
+                                <rect key="frame" x="20" y="88" width="374" height="250"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9wk-qh-3mu">
+                                        <rect key="frame" x="16" y="189" width="351" height="45"/>
+                                        <color key="backgroundColor" name="GreenColor"/>
+                                        <gestureRecognizers/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="45" id="CCS-ZU-KhC"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="16"/>
+                                        <state key="normal" title="Add">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="24"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="NO"/>
+                                            <userDefinedRuntimeAttribute type="size" keyPath="layer.shadowOffset">
+                                                <size key="value" width="0.0" height="2"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.shadowOpacity">
+                                                <real key="value" value="0.5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="addTransaction:" destination="Tgc-fK-AyI" eventType="touchUpInside" id="QcM-r9-vxO"/>
+                                            <action selector="screenClick:" destination="Tgc-fK-AyI" eventType="touchUpInside" id="FwG-yr-Zy7"/>
+                                        </connections>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6vM-BU-osa">
+                                        <rect key="frame" x="16" y="16" width="70" height="70"/>
+                                        <color key="backgroundColor" name="GrayColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="70" id="Ckw-WE-td8"/>
+                                            <constraint firstAttribute="width" secondItem="6vM-BU-osa" secondAttribute="height" multiplier="1:1" id="psl-j0-QZF"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="14"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="NO"/>
+                                            <userDefinedRuntimeAttribute type="size" keyPath="layer.shadowOffset">
+                                                <size key="value" width="1" height="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.shadowOpacity">
+                                                <real key="value" value="0.10000000000000001"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MXN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vvh-gu-wn4">
+                                        <rect key="frame" x="16" y="102" width="94" height="55"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="94" id="hve-LU-K8p"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="40"/>
+                                        <color key="textColor" name="TextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Sly-k2-GwK">
+                                        <rect key="frame" x="126" y="104.66666666666666" width="241" height="50"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gV8-gu-D5P">
+                                        <rect key="frame" x="94" y="16" width="273" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Description" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pNW-AF-dB7">
+                                        <rect key="frame" x="94" y="52" width="273" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="gV8-gu-D5P" firstAttribute="top" secondItem="D3Z-q2-OIJ" secondAttribute="top" constant="16" id="0aP-Ok-nVG"/>
+                                    <constraint firstItem="Vvh-gu-wn4" firstAttribute="leading" secondItem="D3Z-q2-OIJ" secondAttribute="leading" constant="16" id="3f6-7Q-1ib"/>
+                                    <constraint firstAttribute="trailing" secondItem="Sly-k2-GwK" secondAttribute="trailing" constant="7" id="4NY-fS-W3G"/>
+                                    <constraint firstItem="pNW-AF-dB7" firstAttribute="leading" secondItem="6vM-BU-osa" secondAttribute="trailing" constant="8" id="G3m-UJ-tVC"/>
+                                    <constraint firstItem="pNW-AF-dB7" firstAttribute="bottom" secondItem="6vM-BU-osa" secondAttribute="bottom" id="G64-m5-gbC"/>
+                                    <constraint firstItem="Sly-k2-GwK" firstAttribute="centerY" secondItem="Vvh-gu-wn4" secondAttribute="centerY" id="GeX-9k-LdQ"/>
+                                    <constraint firstItem="6vM-BU-osa" firstAttribute="leading" secondItem="D3Z-q2-OIJ" secondAttribute="leading" constant="16" id="HMj-yN-rhv"/>
+                                    <constraint firstAttribute="bottom" secondItem="9wk-qh-3mu" secondAttribute="bottom" constant="16" id="MWw-ny-MGF"/>
+                                    <constraint firstItem="Vvh-gu-wn4" firstAttribute="top" secondItem="6vM-BU-osa" secondAttribute="bottom" constant="16" id="PoF-DP-Cau"/>
+                                    <constraint firstAttribute="trailing" secondItem="gV8-gu-D5P" secondAttribute="trailing" constant="7" id="Q8X-TQ-i1U"/>
+                                    <constraint firstItem="6vM-BU-osa" firstAttribute="top" secondItem="D3Z-q2-OIJ" secondAttribute="top" constant="16" id="YH8-m1-FfE"/>
+                                    <constraint firstAttribute="height" constant="250" id="oId-la-YIK"/>
+                                    <constraint firstAttribute="trailing" secondItem="9wk-qh-3mu" secondAttribute="trailing" constant="7" id="s9i-YZ-Uer"/>
+                                    <constraint firstItem="Sly-k2-GwK" firstAttribute="leading" secondItem="Vvh-gu-wn4" secondAttribute="trailing" constant="16" id="tVZ-S1-Z6d"/>
+                                    <constraint firstItem="gV8-gu-D5P" firstAttribute="leading" secondItem="6vM-BU-osa" secondAttribute="trailing" constant="8" id="x4h-1h-elq"/>
+                                    <constraint firstItem="9wk-qh-3mu" firstAttribute="leading" secondItem="D3Z-q2-OIJ" secondAttribute="leading" constant="16" id="ymM-bz-Ny9"/>
+                                    <constraint firstAttribute="trailing" secondItem="pNW-AF-dB7" secondAttribute="trailing" constant="7" id="zDU-m8-bVv"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="D3Z-q2-OIJ" firstAttribute="trailing" secondItem="6rK-PF-Nm1" secondAttribute="trailingMargin" id="h4n-4u-6An"/>
+                            <constraint firstItem="D3Z-q2-OIJ" firstAttribute="top" secondItem="9Vy-wx-ozm" secondAttribute="top" id="mBO-df-l7d"/>
+                            <constraint firstItem="D3Z-q2-OIJ" firstAttribute="centerX" secondItem="6rK-PF-Nm1" secondAttribute="centerX" id="u9Z-Ls-uhQ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="9Vy-wx-ozm"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="WqF-8T-dt0" appends="YES" id="gyL-at-JkH"/>
+                        </connections>
+                    </view>
+                    <navigationItem key="navigationItem" title="Add" id="KrT-dh-MDN"/>
+                    <connections>
+                        <outlet property="currencyLabel" destination="Vvh-gu-wn4" id="IVE-3E-axI"/>
+                        <outlet property="transactionDescriptionLabel" destination="pNW-AF-dB7" id="K5u-XM-Ssx"/>
+                        <outlet property="transactionNameLabel" destination="gV8-gu-D5P" id="i4K-n8-vrl"/>
+                        <outlet property="valueTextField" destination="Sly-k2-GwK" id="JX1-3C-4Sc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X1K-9h-axg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="WqF-8T-dt0">
+                    <connections>
+                        <action selector="screenClick:" destination="Tgc-fK-AyI" id="bRc-oI-cNJ"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="3200.0000000000005" y="-51.5625"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="ozt-D4-8Zw">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" toolbarHidden="NO" id="1oU-J2-W4x" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="TabBarTransactions" id="6Ha-V2-4th"/>
+                    <tabBarItem key="tabBarItem" title="" image="creditcard" catalog="system" id="6Ha-V2-4th"/>
                     <toolbarItems/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" id="dXQ-JS-BqL">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="dXQ-JS-BqL">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" name="BlackGrayColor"/>
+                        <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                         <textAttributes key="titleTextAttributes">
                             <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
-                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="textColor" systemColor="systemGrayColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </textAttributes>
                         <textAttributes key="largeTitleTextAttributes">
                             <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="36"/>
-                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="textColor" systemColor="systemGrayColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -79,9 +220,16 @@
         </scene>
     </scenes>
     <resources>
-        <image name="TabBarTransactions" width="20" height="20"/>
-        <namedColor name="BlackGrayColor">
-            <color red="0.379942050604828" green="0.37127111904882393" blue="0.38390639286802808" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <image name="creditcard" catalog="system" width="128" height="91"/>
+        <image name="plus" catalog="system" width="128" height="113"/>
+        <namedColor name="GrayColor">
+            <color red="0.60784313725490191" green="0.60784313725490191" blue="0.60784313725490191" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="GreenColor">
+            <color red="0.22499999403953552" green="0.75599998235702515" blue="0.11400000005960464" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="TextColor">
+            <color red="0.14117647058823529" green="0.16862745098039217" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
 </document>
